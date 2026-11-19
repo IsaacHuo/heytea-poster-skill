@@ -1,0 +1,56 @@
+{
+ "passed": true,
+ "hard_failures": [],
+ "warnings": [],
+ "texts": [
+  {
+   "text": "芒果来啦",
+   "role": "expressive",
+   "box": [
+    116,
+    190,
+    656,
+    327
+   ],
+   "ocr": "芒果来啦",
+   "similarity": 1.0,
+   "collision": 0.0,
+   "contrast": 16.01
+  },
+  {
+   "text": "6月1日-6月7日",
+   "role": "functional",
+   "box": [
+    117,
+    882,
+    316,
+    910
+   ],
+   "ocr": "6月1日-6月7日",
+   "similarity": 1.0,
+   "collision": 0.0,
+   "contrast": 8.11
+  }
+ ],
+ "metrics": {
+  "whitespace": 0.8582,
+  "edge_density": 0.0233,
+  "colorfulness": 40.03,
+  "text_ink_ratio": 0.0091,
+  "subject_ink_ratio": 0.0606,
+  "centroid": [
+   0.5748,
+   0.3915
+  ]
+ },
+ "backend": "procedural",
+ "backend_notes": [],
+ "seconds": 4.6,
+ "title_render": {
+  "style": "playful_handwritten",
+  "intensity": 0.62,
+  "attempts": 1,
+  "legibility": 1.0,
+  "warnings": []
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "passed": true,
+ "hard_failures": [],
+ "warnings": [],
+ "texts": [
+  {
+   "text": "下课去喝一杯",
+   "role": "expressive",
+   "box": [
+    100,
+    143,
+    753,
+    254
+   ],
+   "ocr": "下课去喝一杯",
+   "similarity": 1.0,
+   "collision": 0.0,
+   "contrast": 16.01
+  },
+  {
+   "text": "12月5日 14:00-17:00",
+   "role": "functional",
+   "box": [
+    99,
+    1446,
+    394,
+    1475
+   ],
+   "ocr": "12月5日14:00-17:00",
+   "similarity": 1.0,
+   "collision": 0.0,
+   "contrast": 8.11
+  },
+  {
+   "text": "图书馆前草坪",
+   "role": "functional",
+   "box": [
+    99,
+    1484,
+    287,
+    1513
+   ],
+   "ocr": "图书馆前草坪",
+   "similarity": 1.0,
+   "collision": 0.0,
+   "contrast": 8.11
+  }
+ ],
+ "metrics": {
+  "whitespace": 0.7674,
+  "edge_density": 0.0269,
+  "colorfulness": 50.12,
+  "text_ink_ratio": 0.01,
+  "subject_ink_ratio": 0.1403,
+  "centroid": [
+   0.5982,
+   0.6143
+  ]
+ },
+ "backend": "procedural",
+ "backend_notes": [],
+ "seconds": 6.7,
+ "title_render": {
+  "style": "playful_handwritten",
+  "intensity": 0.62,
+  "attempts": 1,
+  "legibility": 1.0,
+  "warnings": []
+ }
+}

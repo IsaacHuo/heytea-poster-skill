@@ -1,0 +1,366 @@
+{
+ "brief": {
+  "request": "横版 banner，芒果，开心 “芒果来啦”",
+  "title": "芒果来啦",
+  "title_is_draft": false,
+  "subtitle": null,
+  "info": [
+   "6月1日-6月7日"
+  ],
+  "moods": [
+   "playful",
+   "natural"
+  ],
+  "ratio": "16:9",
+  "size": [
+   1920,
+   1080
+  ],
+  "subject_keyword": "芒果",
+  "fruit_kind": "mango",
+  "product": null,
+  "season": null,
+  "photo": null
+ },
+ "candidates": [
+  {
+   "concept": "cup_lifts_fruit",
+   "technique": "personification",
+   "story": "杯子长出两条胳膊，把芒果高高举过头顶",
+   "metaphor": "杯子在炫耀它装了什么",
+   "layout": "subject_center",
+   "palette_mode": "single_accent",
+   "score": 4.0,
+   "why": [
+    "mood fit ['natural', 'playful']"
+   ]
+  },
+  {
+   "concept": "drip_into_cup",
+   "technique": "action_exaggeration",
+   "story": "芒果悬在杯子上方，汁水一滴一滴落进去",
+   "metaphor": "原料直接变成这杯饮品",
+   "layout": "subject_center",
+   "palette_mode": "two_tone",
+   "score": 2.6,
+   "why": [
+    "mood fit ['natural']",
+    "1 refs use action_exaggeration"
+   ]
+  },
+  {
+   "concept": "leap_on_cup",
+   "technique": "humorous_contrast",
+   "story": "小人兴奋地跳上杯盖，身后炸开一团颜色",
+   "metaphor": "高兴到坐不住",
+   "layout": "subject_offset",
+   "palette_mode": "single_accent",
+   "score": 2.6,
+   "why": [
+    "mood fit ['playful']",
+    "1 refs use humorous_contrast"
+   ]
+  },
+  {
+   "concept": "push_giant_cup",
+   "technique": "scale_contrast",
+   "story": "一个小人用尽全力推着一杯比他大得多的芒果茶",
+   "metaphor": "好东西值得费点力气",
+   "layout": "subject_offset",
+   "palette_mode": "single_accent",
+   "score": 2.0,
+   "why": [
+    "mood fit ['playful']"
+   ]
+  },
+  {
+   "concept": "fallen_cup_tree",
+   "technique": "everyday_metaphor",
+   "story": "一棵树下倒着一杯芒果茶，像有人在这里发了会儿呆",
+   "metaphor": "喝茶 = 允许自己停一下",
+   "layout": "negative_space",
+   "palette_mode": "single_accent",
+   "score": 2.0,
+   "why": [
+    "mood fit ['natural']"
+   ]
+  },
+  {
+   "concept": "lettering_lead",
+   "technique": "emotion",
+   "story": "字是主角，一个小人靠着杯子听你说",
+   "metaphor": "一句话就是一张海报",
+   "layout": "lettering_lead",
+   "palette_mode": "single_accent",
+   "score": 2.0,
+   "why": [
+    "mood fit ['playful']"
+   ]
+  },
+  {
+   "concept": "color_field",
+   "technique": "nature_simplification",
+   "story": "把芒果的味道画成两块颜色，角落放一只小杯子",
+   "metaphor": "口感 -> 色彩关系",
+   "layout": "color_field",
+   "palette_mode": "two_tone",
+   "score": 0.6,
+   "why": [
+    "mood fit -",
+    "1 refs use nature_simplification"
+   ]
+  }
+ ],
+ "concept": {
+  "concept": "cup_lifts_fruit",
+  "technique": "personification",
+  "story": "杯子长出两条胳膊，把芒果高高举过头顶",
+  "metaphor": "杯子在炫耀它装了什么",
+  "layout": "subject_center",
+  "palette_mode": "single_accent",
+  "score": 4.0,
+  "why": [
+   "mood fit ['natural', 'playful']"
+  ]
+ },
+ "palette": {
+  "paper": "#f3f0e8",
+  "ink": "#161514",
+  "soft_ink": "#4a4743",
+  "accents": [
+   "#f2ae2e"
+  ],
+  "mode": "single_accent",
+  "subject_keyword": "芒果",
+  "fruit_kind": "mango"
+ },
+ "texts": {
+  "title": {
+   "text": "芒果来啦",
+   "role": "expressive",
+   "protect": [],
+   "draft": false,
+   "style": "playful_handwritten",
+   "intensity": 0.62,
+   "layout": "organic",
+   "overrides": {},
+   "notes": []
+  },
+  "subtitle": null,
+  "info": [
+   {
+    "text": "6月1日-6月7日",
+    "role": "functional"
+   }
+  ]
+ },
+ "layout": "subject_center",
+ "references": [
+  {
+   "id": "heyt_0033",
+   "score": 6.798,
+   "reasons": [
+    "subj:fruit",
+    "text:an/ba/er/ne",
+    "clip 0.243"
+   ],
+   "campaign": null,
+   "brand_relation": "unverified",
+   "source": "news_media",
+   "source_url": "https://cdn.img.foodaily.com/images/articles/2025/12/02/1764613987_OJ2JYMk2dtaywiyu.png",
+   "page_url": "https://foodaily.com/index.php/articles/40843",
+   "local_path": "data/originals/heyt_0033.png",
+   "note": "grape photo inset upper-right, tiny line animal bottom-left, text blocks scattered; diagonal balance",
+   "techniques": []
+  },
+  {
+   "id": "heyt_0109",
+   "score": 5.78,
+   "reasons": [
+    "subj:fruit",
+    "text:an/er/ne",
+    "clip 0.160"
+   ],
+   "campaign": "guava_hellokitty_2026_04",
+   "brand_relation": "official_collab",
+   "source": "design_media",
+   "source_url": "https://oss.adquan.com/uploads_img/1775627396307b24e4abfa4d8a.jpg",
+   "page_url": "https://m.adquan.com/detail/10-359722",
+   "local_path": "data/originals/heyt_0109.jpg",
+   "note": "pink handwritten title 和Hello Kitty一起走进春天; line-drawn cup + IP; gingham footer; monochrome pink",
+   "techniques": []
+  },
+  {
+   "id": "heyt_0054",
+   "score": 5.423,
+   "reasons": [
+    "subj:fruit",
+    "text:an/er/ne",
+    "clip 0.153"
+   ],
+   "campaign": "blank_paper_2025_11",
+   "brand_relation": "unverified",
+   "source": "news_media",
+   "source_url": "https://cdn.img.foodaily.com/images/articles/2025/11/27/1764192394_NU8vVNne0H8BTLuG.jpeg",
+   "page_url": "https://foodaily.com/index.php/articles/40819",
+   "local_path": "data/originals/heyt_0054.jpg",
+   "note": "die-cut purple grape-shaped sticker/tag photographed hanging among real grapes on the vine - drawn object placed in real context",
+   "techniques": [
+    "visual_pun"
+   ]
+  },
+  {
+   "id": "heyt_0287",
+   "score": 5.121,
+   "reasons": [
+    "subj:fruit",
+    "text:an/er",
+    "clip 0.175"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://www.brandstar.com.cn/wp-content/uploads/brandstar-mirror/48/484cadd00574ceeb16058fe77206921ecffcfc0afe1c035093dcf6057f1ccd4c.png",
+   "page_url": "https://www.brandstar.com.cn/articles/source-8058/",
+   "local_path": "data/originals/heyt_0287.png",
+   "note": "flat-lay of die-cut stickers (apple, grapes, cups) and small photos on dark wood",
+   "techniques": [
+    "nature_simplification"
+   ]
+  },
+  {
+   "id": "heyt_0201",
+   "score": 4.723,
+   "reasons": [
+    "text:an/er/ne/nn",
+    "clip 0.176"
+   ],
+   "campaign": "caotai_banzi_2025_11",
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://file.digitaling.com/eImg/uimages/20251127/remote_176421380073572.png",
+   "page_url": "https://www.digitaling.com/articles/1432857.html",
+   "local_path": "data/originals/heyt_0201.png",
+   "note": "hoarding: line-drawn drinker icon + handwritten new style tea / by inspiration, coming soon -> soon crossed out to slowly; visible correction is the joke - mist",
+   "techniques": [
+    "humorous_contrast"
+   ]
+  },
+  {
+   "id": "heyt_0235",
+   "score": 4.214,
+   "reasons": [
+    "text:an/ba/ne",
+    "clip 0.224"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://cdn.ganhuoku.cn/ganhuoku-cn/2026/03/2026031907435185.png",
+   "page_url": "https://www.ganhuoku.cn/archives/355824",
+   "local_path": "data/originals/heyt_0235.png",
+   "note": "去茶底 / 纯享浓浓 handwritten split left/right; drawn tea bag lifted by doodle hand, dotted drip line down to real cup photo",
+   "techniques": [
+    "action_exaggeration"
+   ]
+  }
+ ],
+ "concept_references": [
+  {
+   "id": "heyt_0109",
+   "score": 8.134,
+   "reasons": [
+    "subj:drink,fruit",
+    "text:an/er/ne",
+    "clip 0.219"
+   ],
+   "campaign": "guava_hellokitty_2026_04",
+   "brand_relation": "official_collab",
+   "source": "design_media",
+   "source_url": "https://oss.adquan.com/uploads_img/1775627396307b24e4abfa4d8a.jpg",
+   "page_url": "https://m.adquan.com/detail/10-359722",
+   "local_path": "data/originals/heyt_0109.jpg",
+   "note": "pink handwritten title 和Hello Kitty一起走进春天; line-drawn cup + IP; gingham footer; monochrome pink"
+  },
+  {
+   "id": "heyt_0006",
+   "score": 7.946,
+   "reasons": [
+    "tech:personification",
+    "subj:drink",
+    "text:an/ba/er",
+    "clip 0.180"
+   ],
+   "campaign": null,
+   "brand_relation": "unverified",
+   "source": "news_media",
+   "source_url": "https://cdn.img.foodaily.com/images/articles/2025/12/02/1764613961_WR6IzCguX4KFtOMN.jpeg",
+   "page_url": "https://foodaily.com/index.php/articles/40843",
+   "local_path": "data/originals/heyt_0006.jpg",
+   "note": "black cup, white doodle character printed, plant backdrop"
+  },
+  {
+   "id": "heyt_0237",
+   "score": 7.691,
+   "reasons": [
+    "tech:personification",
+    "subj:drink",
+    "text:an/ne",
+    "clip 0.271"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://cdn.ganhuoku.cn/ganhuoku-cn/2026/03/2026031907440163.png",
+   "page_url": "https://www.ganhuoku.cn/archives/355824",
+   "local_path": "data/originals/heyt_0237.png",
+   "note": "月满, 杯满 中秋快乐 small handwritten top; cup with drawn arms/legs holding up a yellow moon-like fill; blue line + yellow accent on warm off-white"
+  },
+  {
+   "id": "heyt_0268",
+   "score": 5.87,
+   "reasons": [
+    "subj:drink",
+    "text:ba/er/ne",
+    "clip 0.172"
+   ],
+   "campaign": "cny_horse_2026_02",
+   "brand_relation": "official_collab",
+   "source": "design_media",
+   "source_url": "https://oss.adquan.com/uploads_img/1770349878ab8507c3f0b18d79.jpg",
+   "page_url": "https://www.adquan.com/article/358534",
+   "local_path": "data/originals/heyt_0268.jpg",
+   "note": "CNY red bags/cups with small white childlike horse drawing; festive red but restrained, cozy home photo setting"
+  }
+ ],
+ "image_prompt": "minimal hand-drawn doodle illustration, single black felt-pen line of constant width, slightly wobbly, flat color fill slightly off the line, warm off-white paper background #f3f0e8, large empty space, one accent color #f2ae2e, scene: cup lifts fruit (芒果), no text, no logo, no faces on fruit, not cute cartoon",
+ "seed": 11,
+ "rationale": [
+  "moods ['playful', 'natural']",
+  "picked cup_lifts_fruit (4.0): [\"mood fit ['natural', 'playful']\"]",
+  "text style playful_handwritten @ 0.62 for mood playful"
+ ],
+ "layout_boxes": {
+  "strategy": "subject_center",
+  "align": "left",
+  "vertical": false,
+  "title": [
+   99,
+   173,
+   807,
+   666
+  ],
+  "subject": [
+   932,
+   119,
+   1779,
+   958
+  ],
+  "info": [
+   113,
+   844,
+   793,
+   949
+  ]
+ }
+}

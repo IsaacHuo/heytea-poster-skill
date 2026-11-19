@@ -1,0 +1,42 @@
+{
+ "passed": true,
+ "hard_failures": [],
+ "warnings": [],
+ "texts": [
+  {
+   "text": "月满，杯满",
+   "role": "expressive",
+   "box": [
+    224,
+    152,
+    845,
+    294
+   ],
+   "ocr": "月满，杯满",
+   "similarity": 1.0,
+   "collision": 0.0,
+   "contrast": 16.01
+  }
+ ],
+ "metrics": {
+  "whitespace": 0.8397,
+  "edge_density": 0.0231,
+  "colorfulness": 33.3,
+  "text_ink_ratio": 0.0089,
+  "subject_ink_ratio": 0.0804,
+  "centroid": [
+   0.5015,
+   0.4583
+  ]
+ },
+ "backend": "procedural",
+ "backend_notes": [],
+ "seconds": 3.5,
+ "title_render": {
+  "style": "playful_handwritten",
+  "intensity": 0.5,
+  "attempts": 1,
+  "legibility": 1.0,
+  "warnings": []
+ }
+}

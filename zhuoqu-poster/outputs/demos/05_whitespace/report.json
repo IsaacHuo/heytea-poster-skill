@@ -1,0 +1,42 @@
+{
+ "passed": true,
+ "hard_failures": [],
+ "warnings": [],
+ "texts": [
+  {
+   "text": "龙井的味道，安安静静",
+   "role": "expressive",
+   "box": [
+    111,
+    158,
+    634,
+    411
+   ],
+   "ocr": "龙井的味道安安静静",
+   "similarity": 1.0,
+   "collision": 0.0,
+   "contrast": 16.01
+  }
+ ],
+ "metrics": {
+  "whitespace": 0.9226,
+  "edge_density": 0.0175,
+  "colorfulness": 4.31,
+  "text_ink_ratio": 0.0114,
+  "subject_ink_ratio": 0.0092,
+  "centroid": [
+   0.4268,
+   0.4334
+  ]
+ },
+ "backend": "procedural",
+ "backend_notes": [],
+ "seconds": 4.2,
+ "title_render": {
+  "style": "quiet_note",
+  "intensity": 0.45,
+  "attempts": 1,
+  "legibility": 1.0,
+  "warnings": []
+ }
+}

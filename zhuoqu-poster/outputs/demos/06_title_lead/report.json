@@ -1,0 +1,42 @@
+{
+ "passed": true,
+ "hard_failures": [],
+ "warnings": [],
+ "texts": [
+  {
+   "text": "今天先发会儿呆",
+   "role": "expressive",
+   "box": [
+    114,
+    287,
+    1026,
+    862
+   ],
+   "ocr": "今天先发会儿呆",
+   "similarity": 1.0,
+   "collision": 0.0,
+   "contrast": 16.01
+  }
+ ],
+ "metrics": {
+  "whitespace": 0.8611,
+  "edge_density": 0.0237,
+  "colorfulness": 19.02,
+  "text_ink_ratio": 0.0349,
+  "subject_ink_ratio": 0.0216,
+  "centroid": [
+   0.5224,
+   0.4701
+  ]
+ },
+ "backend": "procedural",
+ "backend_notes": [],
+ "seconds": 4.4,
+ "title_render": {
+  "style": "playful_handwritten",
+  "intensity": 0.74,
+  "attempts": 1,
+  "legibility": 1.0,
+  "warnings": []
+ }
+}

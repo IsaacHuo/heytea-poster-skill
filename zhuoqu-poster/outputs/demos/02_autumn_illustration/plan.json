@@ -1,0 +1,373 @@
+{
+ "brief": {
+  "request": "生成一张带有拙趣手写字的秋日插画，柿子",
+  "title": null,
+  "title_is_draft": true,
+  "subtitle": null,
+  "info": [],
+  "moods": [
+   "natural"
+  ],
+  "ratio": "3:4",
+  "size": [
+   1200,
+   1600
+  ],
+  "subject_keyword": "柿子",
+  "fruit_kind": "persimmon",
+  "product": null,
+  "season": "autumn",
+  "photo": null
+ },
+ "candidates": [
+  {
+   "concept": "fallen_cup_tree",
+   "technique": "everyday_metaphor",
+   "story": "一棵树下倒着一杯柿子茶，像有人在这里发了会儿呆",
+   "metaphor": "喝茶 = 允许自己停一下",
+   "layout": "negative_space",
+   "palette_mode": "single_accent",
+   "score": 3.2,
+   "why": [
+    "mood fit ['natural']",
+    "2 refs use everyday_metaphor"
+   ]
+  },
+  {
+   "concept": "cup_lifts_fruit",
+   "technique": "personification",
+   "story": "杯子长出两条胳膊，把柿子高高举过头顶",
+   "metaphor": "杯子在炫耀它装了什么",
+   "layout": "subject_center",
+   "palette_mode": "single_accent",
+   "score": 2.6,
+   "why": [
+    "mood fit ['natural']",
+    "1 refs use personification"
+   ]
+  },
+  {
+   "concept": "drip_into_cup",
+   "technique": "action_exaggeration",
+   "story": "柿子悬在杯子上方，汁水一滴一滴落进去",
+   "metaphor": "原料直接变成这杯饮品",
+   "layout": "subject_center",
+   "palette_mode": "two_tone",
+   "score": 2.0,
+   "why": [
+    "mood fit ['natural']"
+   ]
+  },
+  {
+   "concept": "push_giant_cup",
+   "technique": "scale_contrast",
+   "story": "一个小人用尽全力推着一杯比他大得多的柿子茶",
+   "metaphor": "好东西值得费点力气",
+   "layout": "subject_offset",
+   "palette_mode": "single_accent",
+   "score": 1.2,
+   "why": [
+    "mood fit -",
+    "2 refs use scale_contrast"
+   ]
+  },
+  {
+   "concept": "color_field",
+   "technique": "nature_simplification",
+   "story": "把柿子的味道画成两块颜色，角落放一只小杯子",
+   "metaphor": "口感 -> 色彩关系",
+   "layout": "color_field",
+   "palette_mode": "two_tone",
+   "score": 0.6,
+   "why": [
+    "mood fit -",
+    "1 refs use nature_simplification"
+   ]
+  },
+  {
+   "concept": "lettering_lead",
+   "technique": "emotion",
+   "story": "字是主角，一个小人靠着杯子听你说",
+   "metaphor": "一句话就是一张海报",
+   "layout": "lettering_lead",
+   "palette_mode": "single_accent",
+   "score": 0.6,
+   "why": [
+    "mood fit -",
+    "1 refs use emotion"
+   ]
+  },
+  {
+   "concept": "leap_on_cup",
+   "technique": "humorous_contrast",
+   "story": "小人兴奋地跳上杯盖，身后炸开一团颜色",
+   "metaphor": "高兴到坐不住",
+   "layout": "subject_offset",
+   "palette_mode": "single_accent",
+   "score": 0.0,
+   "why": [
+    "mood fit -"
+   ]
+  }
+ ],
+ "concept": {
+  "concept": "fallen_cup_tree",
+  "technique": "everyday_metaphor",
+  "story": "一棵树下倒着一杯柿子茶，像有人在这里发了会儿呆",
+  "metaphor": "喝茶 = 允许自己停一下",
+  "layout": "negative_space",
+  "palette_mode": "single_accent",
+  "score": 3.2,
+  "why": [
+   "mood fit ['natural']",
+   "2 refs use everyday_metaphor"
+  ]
+ },
+ "palette": {
+  "paper": "#f3f0e8",
+  "ink": "#161514",
+  "soft_ink": "#4a4743",
+  "accents": [
+   "#e07a2e"
+  ],
+  "mode": "single_accent",
+  "subject_keyword": "柿子",
+  "fruit_kind": "persimmon"
+ },
+ "texts": {
+  "title": {
+   "text": "这一口是柿子",
+   "role": "expressive",
+   "protect": [],
+   "draft": true,
+   "style": "playful_handwritten",
+   "intensity": 0.5,
+   "layout": "organic",
+   "overrides": {},
+   "notes": []
+  },
+  "subtitle": null,
+  "info": []
+ },
+ "layout": "negative_space",
+ "references": [
+  {
+   "id": "heyt_0009",
+   "score": 6.753,
+   "reasons": [
+    "cat:pure_illustration",
+    "typo:expressive",
+    "text:柿子",
+    "clip 0.306"
+   ],
+   "campaign": null,
+   "brand_relation": "unverified",
+   "source": "news_media",
+   "source_url": "https://cdn.img.foodaily.com/images/articles/2025/12/02/1764613964_cXf43RDSKgOWeZQJ.jpeg",
+   "page_url": "https://foodaily.com/index.php/articles/40843",
+   "local_path": "data/originals/heyt_0009.jpg",
+   "note": "tulou building drawn small top-left, stacked persimmons on stool; vertical handwritten headline right; tiny body text; ~70% paper white",
+   "techniques": [
+    "scale_contrast",
+    "nature_simplification"
+   ]
+  },
+  {
+   "id": "heyt_0058",
+   "score": 6.086,
+   "reasons": [
+    "cat:pure_illustration",
+    "typo:expressive",
+    "clip 0.266"
+   ],
+   "campaign": "starman_popmart_2025_12",
+   "brand_relation": "unverified",
+   "source": "design_media",
+   "source_url": "https://socialbeta.oss-cn-hangzhou.aliyuncs.com/upload/198246-1766375565.jpg",
+   "page_url": "https://socialbeta.com/article/110823",
+   "local_path": "data/originals/heyt_0058.jpg",
+   "note": "Starman x HEYTEA collab key visual/merch board; warm yellow, stars; licensed IP - campaign-specific style, not stable language",
+   "techniques": []
+  },
+  {
+   "id": "heyt_0237",
+   "score": 5.877,
+   "reasons": [
+    "cat:pure_illustration",
+    "typo:expressive",
+    "clip 0.236"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://cdn.ganhuoku.cn/ganhuoku-cn/2026/03/2026031907440163.png",
+   "page_url": "https://www.ganhuoku.cn/archives/355824",
+   "local_path": "data/originals/heyt_0237.png",
+   "note": "月满, 杯满 中秋快乐 small handwritten top; cup with drawn arms/legs holding up a yellow moon-like fill; blue line + yellow accent on warm off-white",
+   "techniques": [
+    "personification"
+   ]
+  },
+  {
+   "id": "heyt_0270",
+   "score": 5.823,
+   "reasons": [
+    "cat:pure_illustration",
+    "typo:expressive",
+    "clip 0.222"
+   ],
+   "campaign": "cny_horse_2026_02",
+   "brand_relation": "official_collab",
+   "source": "design_media",
+   "source_url": "https://socialbeta.oss-cn-hangzhou.aliyuncs.com/upload/198246-1770348559.jpg",
+   "page_url": "https://socialbeta.com/campaign/26948",
+   "local_path": "data/originals/heyt_0270.png",
+   "note": "celebrity 马思纯 childlike colored-pencil horse drawings + handwritten letter on paper, colored pencils on table; amateur drawing as IP",
+   "techniques": [
+    "emotion",
+    "everyday_metaphor"
+   ]
+  },
+  {
+   "id": "heyt_0047",
+   "score": 5.691,
+   "reasons": [
+    "cat:photo_plus_drawing",
+    "typo:expressive",
+    "text:一张",
+    "clip 0.069"
+   ],
+   "campaign": "blank_paper_2025_11",
+   "brand_relation": "unverified",
+   "source": "news_media",
+   "source_url": "https://cdn.img.foodaily.com/images/articles/2025/11/27/1764192391_Mod9SZN1R8OT15tX.jpeg",
+   "page_url": "https://foodaily.com/index.php/articles/40819",
+   "local_path": "data/originals/heyt_0047.jpg",
+   "note": "receipt-like labels wrapped on cups, doodles - UGC photo",
+   "techniques": []
+  },
+  {
+   "id": "heyt_0295",
+   "score": 5.498,
+   "reasons": [
+    "cat:pure_illustration",
+    "typo:expressive",
+    "clip 0.186"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://www.brandstar.com.cn/wp-content/uploads/brandstar-mirror/03/03160148bb9538fe9042f589b4c20eabd1960501edab8f00ed121c127fa9f2f0.gif",
+   "page_url": "https://www.brandstar.com.cn/articles/source-8058/",
+   "local_path": "data/originals/heyt_0295.gif",
+   "note": "hand-drawn phone outline framing handwritten text + leaf drawing; tiny figure leans on phone corner",
+   "techniques": [
+    "everyday_metaphor",
+    "scale_contrast"
+   ]
+  }
+ ],
+ "concept_references": [
+  {
+   "id": "heyt_0011",
+   "score": 10.78,
+   "reasons": [
+    "cat:pure_illustration",
+    "typo:expressive",
+    "tech:everyday_metaphor",
+    "subj:drink",
+    "text:有人",
+    "clip 0.309"
+   ],
+   "campaign": null,
+   "brand_relation": "unverified",
+   "source": "news_media",
+   "source_url": "https://cdn.img.foodaily.com/images/articles/2025/12/02/1764613966_H4gHUl8VFTNT8YSD.png",
+   "page_url": "https://foodaily.com/index.php/articles/40843",
+   "local_path": "data/originals/heyt_0011.png",
+   "note": "thin pencil line cup sketch, question mark, short handwritten line; extremely sparse"
+  },
+  {
+   "id": "heyt_0248",
+   "score": 9.535,
+   "reasons": [
+    "cat:photo_plus_drawing",
+    "typo:expressive",
+    "tech:everyday_metaphor",
+    "subj:drink",
+    "clip 0.183"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://cdn.ganhuoku.cn/ganhuoku-cn/2026/03/2026031907445937.png",
+   "page_url": "https://www.ganhuoku.cn/archives/355824",
+   "local_path": "data/originals/heyt_0248.png",
+   "note": "metro lightbox 喜茶就在后海A出口: drawn stick figure pushing a giant real cup photo toward a drawn arrow/door; handwritten title left; wayfinding as joke"
+  },
+  {
+   "id": "heyt_0270",
+   "score": 7.727,
+   "reasons": [
+    "cat:pure_illustration",
+    "typo:expressive",
+    "tech:everyday_metaphor",
+    "clip 0.206"
+   ],
+   "campaign": "cny_horse_2026_02",
+   "brand_relation": "official_collab",
+   "source": "design_media",
+   "source_url": "https://socialbeta.oss-cn-hangzhou.aliyuncs.com/upload/198246-1770348559.jpg",
+   "page_url": "https://socialbeta.com/campaign/26948",
+   "local_path": "data/originals/heyt_0270.png",
+   "note": "celebrity 马思纯 childlike colored-pencil horse drawings + handwritten letter on paper, colored pencils on table; amateur drawing as IP"
+  },
+  {
+   "id": "heyt_0218",
+   "score": 7.581,
+   "reasons": [
+    "cat:photo_plus_drawing",
+    "typo:expressive",
+    "subj:drink",
+    "clip 0.199"
+   ],
+   "campaign": "caotai_banzi_2025_11",
+   "brand_relation": "unverified",
+   "source": "design_media",
+   "source_url": "https://file.digitaling.com/eImg/cover/20251118/20251118175646_35835.png",
+   "page_url": "https://www.digitaling.com/articles/1432857.html",
+   "local_path": "data/originals/heyt_0218.png",
+   "note": "white cups with big handwritten single characters 才/果 + 4-digit order numbers + doodle figure"
+  }
+ ],
+ "image_prompt": "minimal hand-drawn doodle illustration, single black felt-pen line of constant width, slightly wobbly, flat color fill slightly off the line, warm off-white paper background #f3f0e8, large empty space, one accent color #e07a2e, scene: fallen cup tree (柿子), no text, no logo, no faces on fruit, not cute cartoon",
+ "seed": 11,
+ "rationale": [
+  "moods ['natural']",
+  "picked fallen_cup_tree (3.2): [\"mood fit ['natural']\", '2 refs use everyday_metaphor']",
+  "text style playful_handwritten @ 0.5 for mood natural"
+ ],
+ "layout_boxes": {
+  "strategy": "negative_space",
+  "align": "left",
+  "vertical": false,
+  "title": [
+   98,
+   145,
+   648,
+   507
+  ],
+  "subject": [
+   486,
+   896,
+   1064,
+   1388
+  ],
+  "info": [
+   107,
+   1442,
+   736,
+   1518
+  ]
+ }
+}

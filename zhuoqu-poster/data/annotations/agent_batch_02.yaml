@@ -1,0 +1,49 @@
+# Agent-assisted annotations batch 02 (sheets 02-03). Not ground truth.
+heyt_0049: {decision: reject, reason: "XHS screenshot; competitor (1点点) imitating 拙趣 style - imitation, not HEYTEA"}
+heyt_0050: {decision: reject, reason: "XHS screenshot of receipt"}
+heyt_0051: {decision: reject, reason: "competitor CHAGEE cup labels (imitation trend)"}
+heyt_0052: {decision: reject, reason: "UGC XHS screenshot, artwork small"}
+heyt_0053: {decision: keep, cat: [lettering_dominant], typo: [expressive, functional], subj: [store], note: "store menu boards with marker-handwritten product names (红心芭乐/桑葚/广西...) - store handwriting system"}
+heyt_0054: {decision: keep, frame: app_ui, cat: [photo_plus_drawing], typo: [expressive], subj: [fruit, packaging], tech: [visual_pun], note: "die-cut purple grape-shaped sticker/tag photographed hanging among real grapes on the vine - drawn object placed in real context"}
+heyt_0055: {decision: reject, reason: "XHS repost screenshot of apple poster; small"}
+heyt_0056: {decision: reject, reason: "text-only quote screenshot"}
+heyt_0057: {decision: keep, cat: [photo_plus_drawing], typo: [none], subj: [drink, packaging, character_ip], campaign: starman_popmart_2025_12, note: "rows of cups with Starman IP print, dome lids - collab packaging"}
+heyt_0058: {decision: keep, cat: [pure_illustration], typo: [functional, expressive], subj: [character_ip, packaging], campaign: starman_popmart_2025_12, note: "Starman x HEYTEA collab key visual/merch board; warm yellow, stars; licensed IP - campaign-specific style, not stable language"}
+heyt_0059: {decision: keep, cat: [pure_illustration], typo: [functional, expressive], subj: [character_ip, packaging], campaign: starman_popmart_2025_12, note: "Starman x HEYTEA collab key visual/merch board; warm yellow, stars; licensed IP - campaign-specific style, not stable language"}
+heyt_0060: {decision: keep, cat: [pure_illustration], typo: [functional, expressive], subj: [character_ip, packaging], campaign: starman_popmart_2025_12, note: "Starman x HEYTEA collab key visual/merch board; warm yellow, stars; licensed IP - campaign-specific style, not stable language"}
+heyt_0061: {decision: keep, cat: [pure_illustration], typo: [functional, expressive], subj: [character_ip, packaging], campaign: starman_popmart_2025_12, note: "Starman x HEYTEA collab key visual/merch board; warm yellow, stars; licensed IP - campaign-specific style, not stable language"}
+heyt_0062: {decision: reject, reason: "not HEYTEA: LAZBOY x 苏轼 campaign on multi-brand SocialBeta roundup page"}
+heyt_0063: {decision: reject, reason: "not HEYTEA: LAZBOY x 苏轼 campaign on multi-brand SocialBeta roundup page"}
+heyt_0064: {decision: reject, reason: "not HEYTEA: LAZBOY x 苏轼 campaign on multi-brand SocialBeta roundup page"}
+heyt_0065: {decision: reject, reason: "not HEYTEA: LAZBOY x 苏轼 campaign on multi-brand SocialBeta roundup page"}
+heyt_0066: {decision: reject, reason: "not HEYTEA: LAZBOY x 苏轼 campaign on multi-brand SocialBeta roundup page"}
+heyt_0067: {decision: reject, reason: "not HEYTEA: LAZBOY x 苏轼 campaign on multi-brand SocialBeta roundup page"}
+heyt_0068: {decision: reject, reason: "not HEYTEA: LAZBOY x 苏轼 campaign on multi-brand SocialBeta roundup page"}
+heyt_0069: {decision: reject, reason: "not HEYTEA: LAZBOY x 苏轼 campaign on multi-brand SocialBeta roundup page"}
+heyt_0070: {decision: reject, reason: "not HEYTEA: LAZBOY x 苏轼 campaign on multi-brand SocialBeta roundup page"}
+heyt_0071: {decision: reject, reason: "not HEYTEA: LAZBOY x 苏轼 campaign on multi-brand SocialBeta roundup page"}
+heyt_0072: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0073: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0074: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0075: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0076: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0077: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0078: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0079: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0080: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0081: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0082: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0083: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0084: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0085: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0086: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0087: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0088: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0089: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0090: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0091: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0092: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0093: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0094: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0095: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}
+heyt_0096: {decision: reject, reason: "not HEYTEA: other brands on SocialBeta/Adquan roundup or related-article thumbnails"}

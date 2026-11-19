@@ -1,0 +1,56 @@
+{
+ "passed": true,
+ "hard_failures": [],
+ "warnings": [],
+ "texts": [
+  {
+   "text": "这一口是葡萄",
+   "role": "expressive",
+   "box": [
+    168,
+    132,
+    1020,
+    277
+   ],
+   "ocr": "这一口是葡萄",
+   "similarity": 1.0,
+   "collision": 0.0,
+   "contrast": 16.01
+  },
+  {
+   "text": "7月1日起 全国门店",
+   "role": "functional",
+   "box": [
+    447,
+    1454,
+    742,
+    1488
+   ],
+   "ocr": "7月1日起全国门店",
+   "similarity": 1.0,
+   "collision": 0.0,
+   "contrast": 8.11
+  }
+ ],
+ "metrics": {
+  "whitespace": 0.8736,
+  "edge_density": 0.0233,
+  "colorfulness": 12.73,
+  "text_ink_ratio": 0.0166,
+  "subject_ink_ratio": 0.0501,
+  "centroid": [
+   0.5078,
+   0.4794
+  ]
+ },
+ "backend": "procedural",
+ "backend_notes": [],
+ "seconds": 33.0,
+ "title_render": {
+  "style": "playful_handwritten",
+  "intensity": 0.5,
+  "attempts": 1,
+  "legibility": 1.0,
+  "warnings": []
+ }
+}

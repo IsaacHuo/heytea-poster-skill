@@ -1,0 +1,82 @@
+# Agent-assisted annotations batch 04 (b2 sheets 00-01). Not ground truth.
+heyt_0130: {decision: keep, brand: official, campaign: melon_kuakua_2020, note: "2020 夸夸瓜/吃瓜公司 retro-kitsch campaign (source article 2020-07). Evolution context, NOT current 拙趣 language. Green gradient, yellow outlined bold captions, exaggerated actors.", cat: [documentary_photo_text], typo: [expressive], subj: [person, fruit, drink], tech: [humorous_contrast, action_exaggeration]}
+heyt_0131: {decision: keep, brand: official, campaign: melon_kuakua_2020, note: "2020 夸夸瓜/吃瓜公司 retro-kitsch campaign (source article 2020-07). Evolution context, NOT current 拙趣 language. Green gradient, yellow outlined bold captions, exaggerated actors.", cat: [documentary_photo_text], typo: [expressive], subj: [person, fruit, drink], tech: [humorous_contrast, action_exaggeration]}
+heyt_0132: {decision: keep, brand: official, campaign: melon_kuakua_2020, note: "2020 夸夸瓜/吃瓜公司 retro-kitsch campaign (source article 2020-07). Evolution context, NOT current 拙趣 language. Green gradient, yellow outlined bold captions, exaggerated actors.", cat: [documentary_photo_text], typo: [expressive], subj: [person, fruit, drink], tech: [humorous_contrast, action_exaggeration]}
+heyt_0133: {decision: keep, brand: official, campaign: melon_kuakua_2020, note: "2020 夸夸瓜/吃瓜公司 retro-kitsch campaign (source article 2020-07). Evolution context, NOT current 拙趣 language. Green gradient, yellow outlined bold captions, exaggerated actors.", cat: [documentary_photo_text], typo: [expressive], subj: [person, fruit, drink], tech: [humorous_contrast, action_exaggeration]}
+heyt_0134: {decision: keep, brand: official, campaign: melon_kuakua_2020, note: "2020 夸夸瓜/吃瓜公司 retro-kitsch campaign (source article 2020-07). Evolution context, NOT current 拙趣 language. Green gradient, yellow outlined bold captions, exaggerated actors.", cat: [documentary_photo_text], typo: [expressive], subj: [person, fruit, drink], tech: [humorous_contrast, action_exaggeration]}
+heyt_0135: {decision: keep, brand: official, campaign: melon_kuakua_2020, note: "2020 夸夸瓜/吃瓜公司 retro-kitsch campaign (source article 2020-07). Evolution context, NOT current 拙趣 language. Green gradient, yellow outlined bold captions, exaggerated actors.", cat: [documentary_photo_text], typo: [expressive], subj: [person, fruit, drink], tech: [humorous_contrast, action_exaggeration]}
+heyt_0136: {decision: keep, brand: official, campaign: melon_kuakua_2020, note: "2020 夸夸瓜/吃瓜公司 retro-kitsch campaign (source article 2020-07). Evolution context, NOT current 拙趣 language. Green gradient, yellow outlined bold captions, exaggerated actors.", cat: [documentary_photo_text], typo: [expressive], subj: [person, fruit, drink], tech: [humorous_contrast, action_exaggeration]}
+heyt_0137: {decision: keep, brand: official, campaign: melon_kuakua_2020, note: "2020 夸夸瓜/吃瓜公司 retro-kitsch campaign (source article 2020-07). Evolution context, NOT current 拙趣 language. Green gradient, yellow outlined bold captions, exaggerated actors.", cat: [documentary_photo_text], typo: [expressive], subj: [person, fruit, drink], tech: [humorous_contrast, action_exaggeration]}
+heyt_0138: {decision: keep, brand: official, campaign: melon_kuakua_2020, note: "2020 夸夸瓜/吃瓜公司 retro-kitsch campaign (source article 2020-07). Evolution context, NOT current 拙趣 language. Green gradient, yellow outlined bold captions, exaggerated actors.", cat: [documentary_photo_text], typo: [expressive], subj: [person, fruit, drink], tech: [humorous_contrast, action_exaggeration]}
+heyt_0141: {decision: keep, brand: official, campaign: melon_kuakua_2020, cat: [mixed], typo: [expressive], tech: [collage, humorous_contrast], note: "2020 吃瓜公司 retro collage poster"}
+heyt_0147: {decision: reject, reason: "not HEYTEA: related-article thumbnails of other brands"}
+heyt_0148: {decision: reject, reason: "not HEYTEA: related-article thumbnails of other brands"}
+heyt_0149: {decision: reject, reason: "not HEYTEA: related-article thumbnails of other brands"}
+heyt_0150: {decision: reject, reason: "not HEYTEA: related-article thumbnails of other brands"}
+heyt_0151: {decision: reject, reason: "not HEYTEA: related-article thumbnails of other brands"}
+heyt_0152: {decision: reject, reason: "not HEYTEA: related-article thumbnails of other brands"}
+heyt_0153: {decision: reject, reason: "not HEYTEA: related-article thumbnails of other brands"}
+heyt_0154: {decision: reject, reason: "not HEYTEA: related-article thumbnails of other brands"}
+heyt_0155: {decision: reject, reason: "not HEYTEA: related-article thumbnails of other brands"}
+heyt_0156: {decision: reject, reason: "not HEYTEA: related-article thumbnails of other brands"}
+heyt_0157: {decision: reject, reason: "not HEYTEA: related-article thumbnails of other brands"}
+heyt_0158: {decision: reject, reason: "not HEYTEA: related-article thumbnails of other brands"}
+heyt_0159: {decision: reject, reason: "not HEYTEA: related-article thumbnails of other brands"}
+heyt_0160: {decision: reject, reason: "not HEYTEA: related-article thumbnails of other brands"}
+heyt_0161: {decision: reject, reason: "not HEYTEA: related-article thumbnails of other brands"}
+heyt_0162: {decision: reject, reason: "not HEYTEA: illustration thumbnail"}
+heyt_0185: {decision: reject, reason: "not HEYTEA: IKEA sign (typo-trend example)"}
+heyt_0189: {decision: reject, reason: "XHS screenshot of hoarding (better photos 0190/0197)"}
+heyt_0190: {decision: keep, brand: official, campaign: caotai_banzi_2025_11, cat: [lettering_dominant], typo: [expressive], subj: [store], tech: [humorous_contrast, everyday_metaphor], comp: {layout: subject_center, whitespace: large, density: sparse}, note: "construction hoarding, black marker handwriting 小憩一下 / 为呈现更好的喜茶 (with typo 星), small drawn ladder; grey wall as huge negative space"}
+heyt_0197: {decision: keep, brand: official, campaign: caotai_banzi_2025_11, cat: [lettering_dominant], typo: [expressive], subj: [store], tech: [humorous_contrast, everyday_metaphor], comp: {layout: subject_center, whitespace: large, density: sparse}, note: "construction hoarding, black marker handwriting 小憩一下 / 为呈现更好的喜茶 (with typo 星), small drawn ladder; grey wall as huge negative space"}
+heyt_0198: {decision: keep, brand: official, campaign: caotai_banzi_2025_11, cat: [lettering_dominant], typo: [expressive], subj: [store], tech: [humorous_contrast, everyday_metaphor], comp: {layout: subject_center, whitespace: large, density: sparse}, note: "construction hoarding, black marker handwriting 小憩一下 / 为呈现更好的喜茶 (with typo 星), small drawn ladder; grey wall as huge negative space"}
+heyt_0191: {decision: reject, reason: "comment-thread screenshot"}
+heyt_0192: {decision: reject, reason: "comment-thread screenshot"}
+heyt_0193: {decision: reject, reason: "comment-thread screenshot"}
+heyt_0194: {decision: reject, reason: "comment-thread screenshot"}
+heyt_0195: {decision: reject, reason: "comment-thread screenshot"}
+heyt_0196: {decision: reject, reason: "comment-thread screenshot"}
+heyt_0199: {decision: reject, reason: "XHS screenshot of hoarding"}
+heyt_0200: {decision: keep, brand: official, campaign: caotai_banzi_2025_11, cat: [pure_illustration, lettering_dominant], typo: [expressive], subj: [store], comp: {layout: subject_offset, whitespace: large, density: sparse}, note: "wide hoarding: small doodle tree/figure + logo + handwritten slogan placed off-center on long white wall"}
+heyt_0203: {decision: keep, brand: official, campaign: caotai_banzi_2025_11, cat: [pure_illustration, lettering_dominant], typo: [expressive], subj: [store], comp: {layout: subject_offset, whitespace: large, density: sparse}, note: "wide hoarding: small doodle tree/figure + logo + handwritten slogan placed off-center on long white wall"}
+heyt_0201: {decision: keep, brand: official, campaign: caotai_banzi_2025_11, cat: [lettering_dominant], typo: [expressive], subj: [store], tech: [humorous_contrast], comp: {layout: subject_center, whitespace: large, density: sparse}, note: "hoarding: line-drawn drinker icon + handwritten new style tea / by inspiration, coming soon -> soon crossed out to slowly; visible correction is the joke - mistakes as content"}
+heyt_0204: {decision: keep, brand: official, campaign: caotai_banzi_2025_11, cat: [lettering_dominant], typo: [expressive], subj: [store], tech: [humorous_contrast], comp: {layout: subject_center, whitespace: large, density: sparse}, note: "hoarding: line-drawn drinker icon + handwritten new style tea / by inspiration, coming soon -> soon crossed out to slowly; visible correction is the joke - mistakes as content"}
+heyt_0202: {decision: reject, reason: "comment screenshot"}
+heyt_0205: {decision: keep, brand: official, cat: [pure_illustration], typo: [expressive], subj: [fruit, packaging], tech: [nature_simplification], note: "cards with purple marker-drawn grapes, rough fill, on black desk - process/material shot"}
+heyt_0206: {decision: keep, brand: official, frame: app_ui, cat: [lettering_dominant], typo: [expressive], subj: [person], note: "hand writing 牦牛乳 on card with pen - handwriting process"}
+heyt_0207: {decision: reject, reason: "not HEYTEA: other brands imitating typo/handwriting trend"}
+heyt_0208: {decision: reject, reason: "not HEYTEA: other brands imitating typo/handwriting trend"}
+heyt_0209: {decision: reject, reason: "not HEYTEA: other brands imitating typo/handwriting trend"}
+heyt_0210: {decision: reject, reason: "not HEYTEA: other brands imitating typo/handwriting trend"}
+heyt_0211: {decision: reject, reason: "not HEYTEA: other brands imitating typo/handwriting trend"}
+heyt_0212: {decision: reject, reason: "not HEYTEA: other brands imitating typo/handwriting trend"}
+heyt_0213: {decision: reject, reason: "not HEYTEA: other brands imitating typo/handwriting trend"}
+heyt_0214: {decision: reject, reason: "not HEYTEA: other brands imitating typo/handwriting trend"}
+heyt_0215: {decision: reject, reason: "not HEYTEA: other brands imitating typo/handwriting trend"}
+heyt_0216: {decision: reject, reason: "not HEYTEA: other brands imitating typo/handwriting trend"}
+heyt_0217: {decision: reject, reason: "not HEYTEA: other brands imitating typo/handwriting trend"}
+heyt_0218: {decision: keep, brand: unverified, cat: [photo_plus_drawing], typo: [expressive, functional], subj: [drink, packaging], note: "white cups with big handwritten single characters 才/果 + 4-digit order numbers + doodle figure"}
+heyt_0219: {decision: reject, reason: "not HEYTEA / unrelated"}
+heyt_0220: {decision: reject, reason: "not HEYTEA / unrelated"}
+heyt_0221: {decision: reject, reason: "not HEYTEA / unrelated"}
+heyt_0222: {decision: reject, reason: "not HEYTEA / unrelated"}
+heyt_0224: {decision: reject, reason: "text-wall collage screenshot"}
+heyt_0225: {decision: keep, brand: official, campaign: melon_kuakua_2020, cat: [graphic_dominant], typo: [expressive], subj: [fruit, person], tech: [humorous_contrast, action_exaggeration], comp: {density: dense}, note: "2020 夸夸瓜 tacky-retro posters: red/yellow outlined bold type, melons with bows, thumbs-up clipart - deliberate 土味; contrast sample to 2025+ 拙趣"}
+heyt_0226: {decision: keep, brand: official, campaign: melon_kuakua_2020, cat: [graphic_dominant], typo: [expressive], subj: [fruit, person], tech: [humorous_contrast, action_exaggeration], comp: {density: dense}, note: "2020 夸夸瓜 tacky-retro posters: red/yellow outlined bold type, melons with bows, thumbs-up clipart - deliberate 土味; contrast sample to 2025+ 拙趣"}
+heyt_0227: {decision: keep, brand: official, campaign: melon_kuakua_2020, cat: [graphic_dominant], typo: [expressive], subj: [fruit, person], tech: [humorous_contrast, action_exaggeration], comp: {density: dense}, note: "2020 夸夸瓜 tacky-retro posters: red/yellow outlined bold type, melons with bows, thumbs-up clipart - deliberate 土味; contrast sample to 2025+ 拙趣"}
+heyt_0228: {decision: keep, brand: official, campaign: melon_kuakua_2020, cat: [graphic_dominant], typo: [expressive], subj: [fruit, person], tech: [humorous_contrast, action_exaggeration], comp: {density: dense}, note: "2020 夸夸瓜 tacky-retro posters: red/yellow outlined bold type, melons with bows, thumbs-up clipart - deliberate 土味; contrast sample to 2025+ 拙趣"}
+heyt_0229: {decision: reject, reason: "video still near-duplicate of 0132"}
+heyt_0230: {decision: reject, reason: "screenshot / meme / grid"}
+heyt_0231: {decision: reject, reason: "screenshot / meme / grid"}
+heyt_0232: {decision: reject, reason: "screenshot / meme / grid"}
+heyt_0233: {decision: reject, reason: "screenshot / meme / grid"}
+heyt_0234: {decision: keep, brand: official, cat: [photo_plus_drawing, lettering_dominant], typo: [expressive], subj: [ingredient], tech: [everyday_metaphor, humorous_contrast], comp: {layout: subject_center, whitespace: large, density: sparse}, note: "龙井的 not to do list: handwritten CN+EN title top-left, tea-plant photo inside wobbly hand-drawn rectangle frame, tiny doodle bee; frame-as-drawing"}
+heyt_0235: {decision: keep, brand: official, cat: [photo_plus_drawing, lettering_dominant], typo: [expressive], subj: [drink, ingredient], tech: [action_exaggeration], comp: {layout: subject_center, whitespace: large, density: sparse}, note: "去茶底 / 纯享浓浓 handwritten split left/right; drawn tea bag lifted by doodle hand, dotted drip line down to real cup photo"}
+heyt_0236: {decision: keep, brand: official, cat: [graphic_dominant], typo: [functional], subj: [abstract_shape], tech: [nature_simplification], comp: {layout: band, whitespace: medium}, note: "Rothko-like orange/red/cream brushed color fields with single 泰 seal; abstract taste-as-color"}
+heyt_0237: {decision: keep, brand: official, cat: [pure_illustration, lettering_dominant], typo: [expressive], subj: [drink, person], tech: [personification], comp: {layout: subject_center, whitespace: large, density: sparse}, note: "月满, 杯满 中秋快乐 small handwritten top; cup with drawn arms/legs holding up a yellow moon-like fill; blue line + yellow accent on warm off-white"}
+heyt_0238: {decision: keep, brand: official, cat: [pure_illustration, lettering_dominant], typo: [expressive], subj: [drink, person], tech: [personification, action_exaggeration], comp: {layout: subject_offset, whitespace: large, density: sparse}, note: "香芋超看热闹 clean version: handwritten title upper-left with strike-through edit, stick figure leaping on cup, yellow splash accent"}
+heyt_0239: {decision: reject, reason: "XHS screenshot / grid"}
+heyt_0240: {decision: reject, reason: "XHS screenshot / grid"}
+heyt_0241: {decision: reject, reason: "XHS screenshot / grid"}
+heyt_0242: {decision: reject, reason: "XHS screenshot / grid"}
+heyt_0243: {decision: reject, reason: "XHS screenshot / grid"}

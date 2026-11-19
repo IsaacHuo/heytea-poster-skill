@@ -1,0 +1,358 @@
+{
+ "brief": {
+  "request": "纯文字海报，字是主角 “今天先发会儿呆”",
+  "title": "今天先发会儿呆",
+  "title_is_draft": false,
+  "subtitle": null,
+  "info": [],
+  "moods": [
+   "playful"
+  ],
+  "ratio": "3:4",
+  "size": [
+   1200,
+   1600
+  ],
+  "subject_keyword": null,
+  "fruit_kind": null,
+  "product": null,
+  "season": null,
+  "photo": null
+ },
+ "candidates": [
+  {
+   "concept": "push_giant_cup",
+   "technique": "scale_contrast",
+   "story": "一个小人用尽全力推着一杯比他大得多的茶",
+   "metaphor": "好东西值得费点力气",
+   "layout": "subject_offset",
+   "palette_mode": "single_accent",
+   "score": 3.2,
+   "why": [
+    "mood fit ['playful']",
+    "2 refs use scale_contrast"
+   ]
+  },
+  {
+   "concept": "leap_on_cup",
+   "technique": "humorous_contrast",
+   "story": "小人兴奋地跳上杯盖，身后炸开一团颜色",
+   "metaphor": "高兴到坐不住",
+   "layout": "subject_offset",
+   "palette_mode": "single_accent",
+   "score": 2.6,
+   "why": [
+    "mood fit ['playful']",
+    "1 refs use humorous_contrast"
+   ]
+  },
+  {
+   "concept": "lettering_lead",
+   "technique": "emotion",
+   "story": "字是主角，一个小人靠着杯子听你说",
+   "metaphor": "一句话就是一张海报",
+   "layout": "lettering_lead",
+   "palette_mode": "single_accent",
+   "score": 2.6,
+   "why": [
+    "mood fit ['playful']",
+    "1 refs use emotion"
+   ]
+  },
+  {
+   "concept": "fallen_cup_tree",
+   "technique": "everyday_metaphor",
+   "story": "一棵树下倒着一杯茶，像有人在这里发了会儿呆",
+   "metaphor": "喝茶 = 允许自己停一下",
+   "layout": "negative_space",
+   "palette_mode": "single_accent",
+   "score": 1.8,
+   "why": [
+    "mood fit -",
+    "3 refs use everyday_metaphor"
+   ]
+  },
+  {
+   "concept": "cup_lifts_fruit",
+   "technique": "personification",
+   "story": "杯子长出两条胳膊，把一颗果子高高举过头顶",
+   "metaphor": "杯子在炫耀它装了什么",
+   "layout": "subject_center",
+   "palette_mode": "single_accent",
+   "score": 0.5,
+   "why": [
+    "mood fit ['playful']",
+    "no concrete subject to show"
+   ]
+  },
+  {
+   "concept": "drip_into_cup",
+   "technique": "action_exaggeration",
+   "story": "一颗果子悬在杯子上方，汁水一滴一滴落进去",
+   "metaphor": "原料直接变成这杯饮品",
+   "layout": "subject_center",
+   "palette_mode": "two_tone",
+   "score": -0.9,
+   "why": [
+    "mood fit -",
+    "no concrete subject to show",
+    "1 refs use action_exaggeration"
+   ]
+  },
+  {
+   "concept": "color_field",
+   "technique": "nature_simplification",
+   "story": "把一颗果子的味道画成两块颜色，角落放一只小杯子",
+   "metaphor": "口感 -> 色彩关系",
+   "layout": "color_field",
+   "palette_mode": "two_tone",
+   "score": -1.5,
+   "why": [
+    "mood fit -",
+    "no concrete subject to show"
+   ]
+  }
+ ],
+ "concept": {
+  "concept": "lettering_lead",
+  "technique": "emotion",
+  "story": "字是主角，一个小人靠着杯子听你说",
+  "metaphor": "一句话就是一张海报",
+  "layout": "lettering_lead",
+  "palette_mode": "single_accent",
+  "score": 2.6,
+  "why": [
+   "mood fit ['playful']",
+   "1 refs use emotion"
+  ]
+ },
+ "palette": {
+  "paper": "#f3f0e8",
+  "ink": "#161514",
+  "soft_ink": "#4a4743",
+  "accents": [
+   "#e9b44c"
+  ],
+  "mode": "single_accent",
+  "subject_keyword": null,
+  "fruit_kind": null
+ },
+ "texts": {
+  "title": {
+   "text": "今天先发会儿呆",
+   "role": "expressive",
+   "protect": [],
+   "draft": false,
+   "style": "quiet_note",
+   "intensity": 0.31,
+   "layout": "organic",
+   "overrides": {},
+   "notes": [
+    "'安静' -> {'intensity_mul': 0.5, 'style': 'quiet_note'}"
+   ]
+  },
+  "subtitle": null,
+  "info": []
+ },
+ "layout": "lettering_lead",
+ "references": [
+  {
+   "id": "heyt_0012",
+   "score": 2.455,
+   "reasons": [
+    "text:主角",
+    "clip 0.255"
+   ],
+   "campaign": null,
+   "brand_relation": "unverified",
+   "source": "news_media",
+   "source_url": "https://cdn.img.foodaily.com/images/articles/2025/12/02/1764613968_o1KnZGqgJmlmHyCw.jpeg",
+   "page_url": "https://foodaily.com/index.php/articles/40843",
+   "local_path": "data/originals/heyt_0012.jpg",
+   "note": "'琥珀色的，秋高气爽' handwritten top-left, small tea-leaf piles right, '一杯茶？' bottom; text as main visual",
+   "techniques": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "heyt_0053",
+   "score": 2.403,
+   "reasons": [
+    "text:今天",
+    "clip 0.201"
+   ],
+   "campaign": "blank_paper_2025_11",
+   "brand_relation": "unverified",
+   "source": "news_media",
+   "source_url": "https://cdn.img.foodaily.com/images/articles/2025/11/27/1764192394_x3WS5xXuNDiHZbPR.jpeg",
+   "page_url": "https://foodaily.com/index.php/articles/40819",
+   "local_path": "data/originals/heyt_0053.jpg",
+   "note": "store menu boards with marker-handwritten product names (红心芭乐/桑葚/广西...) - store handwriting system",
+   "techniques": []
+  },
+  {
+   "id": "heyt_0058",
+   "score": 2.131,
+   "reasons": [
+    "clip 0.274"
+   ],
+   "campaign": "starman_popmart_2025_12",
+   "brand_relation": "unverified",
+   "source": "design_media",
+   "source_url": "https://socialbeta.oss-cn-hangzhou.aliyuncs.com/upload/198246-1766375565.jpg",
+   "page_url": "https://socialbeta.com/article/110823",
+   "local_path": "data/originals/heyt_0058.jpg",
+   "note": "Starman x HEYTEA collab key visual/merch board; warm yellow, stars; licensed IP - campaign-specific style, not stable language",
+   "techniques": []
+  },
+  {
+   "id": "heyt_0198",
+   "score": 1.98,
+   "reasons": [
+    "clip 0.252"
+   ],
+   "campaign": "caotai_banzi_2025_11",
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://file.digitaling.com/eImg/uimages/20251127/remote_176421380014838.png",
+   "page_url": "https://www.digitaling.com/articles/1432857.html",
+   "local_path": "data/originals/heyt_0198.png",
+   "note": "construction hoarding, black marker handwriting 小憩一下 / 为呈现更好的喜茶 (with typo 星), small drawn ladder; grey wall as huge negative space",
+   "techniques": [
+    "humorous_contrast",
+    "everyday_metaphor"
+   ]
+  },
+  {
+   "id": "heyt_0295",
+   "score": 1.891,
+   "reasons": [
+    "clip 0.252"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://www.brandstar.com.cn/wp-content/uploads/brandstar-mirror/03/03160148bb9538fe9042f589b4c20eabd1960501edab8f00ed121c127fa9f2f0.gif",
+   "page_url": "https://www.brandstar.com.cn/articles/source-8058/",
+   "local_path": "data/originals/heyt_0295.gif",
+   "note": "hand-drawn phone outline framing handwritten text + leaf drawing; tiny figure leans on phone corner",
+   "techniques": [
+    "everyday_metaphor",
+    "scale_contrast"
+   ]
+  },
+  {
+   "id": "heyt_0248",
+   "score": 1.889,
+   "reasons": [
+    "clip 0.242"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://cdn.ganhuoku.cn/ganhuoku-cn/2026/03/2026031907445937.png",
+   "page_url": "https://www.ganhuoku.cn/archives/355824",
+   "local_path": "data/originals/heyt_0248.png",
+   "note": "metro lightbox 喜茶就在后海A出口: drawn stick figure pushing a giant real cup photo toward a drawn arrow/door; handwritten title left; wayfinding as joke",
+   "techniques": [
+    "action_exaggeration",
+    "scale_contrast",
+    "everyday_metaphor"
+   ]
+  }
+ ],
+ "concept_references": [
+  {
+   "id": "heyt_0248",
+   "score": 6.487,
+   "reasons": [
+    "subj:drink,person",
+    "clip 0.342"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://cdn.ganhuoku.cn/ganhuoku-cn/2026/03/2026031907445937.png",
+   "page_url": "https://www.ganhuoku.cn/archives/355824",
+   "local_path": "data/originals/heyt_0248.png",
+   "note": "metro lightbox 喜茶就在后海A出口: drawn stick figure pushing a giant real cup photo toward a drawn arrow/door; handwritten title left; wayfinding as joke"
+  },
+  {
+   "id": "heyt_0012",
+   "score": 6.317,
+   "reasons": [
+    "tech:emotion",
+    "subj:drink",
+    "text:主角",
+    "clip 0.232"
+   ],
+   "campaign": null,
+   "brand_relation": "unverified",
+   "source": "news_media",
+   "source_url": "https://cdn.img.foodaily.com/images/articles/2025/12/02/1764613968_o1KnZGqgJmlmHyCw.jpeg",
+   "page_url": "https://foodaily.com/index.php/articles/40843",
+   "local_path": "data/originals/heyt_0012.jpg",
+   "note": "'琥珀色的，秋高气爽' handwritten top-left, small tea-leaf piles right, '一杯茶？' bottom; text as main visual"
+  },
+  {
+   "id": "heyt_0238",
+   "score": 6.478,
+   "reasons": [
+    "subj:drink,person",
+    "clip 0.332"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://cdn.ganhuoku.cn/ganhuoku-cn/2026/03/2026031907440560.png",
+   "page_url": "https://www.ganhuoku.cn/archives/355824",
+   "local_path": "data/originals/heyt_0238.png",
+   "note": "香芋超看热闹 clean version: handwritten title upper-left with strike-through edit, stick figure leaping on cup, yellow splash accent"
+  },
+  {
+   "id": "heyt_0295",
+   "score": 4.159,
+   "reasons": [
+    "subj:person",
+    "clip 0.297"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://www.brandstar.com.cn/wp-content/uploads/brandstar-mirror/03/03160148bb9538fe9042f589b4c20eabd1960501edab8f00ed121c127fa9f2f0.gif",
+   "page_url": "https://www.brandstar.com.cn/articles/source-8058/",
+   "local_path": "data/originals/heyt_0295.gif",
+   "note": "hand-drawn phone outline framing handwritten text + leaf drawing; tiny figure leans on phone corner"
+  }
+ ],
+ "image_prompt": "minimal hand-drawn doodle illustration, single black felt-pen line of constant width, slightly wobbly, flat color fill slightly off the line, warm off-white paper background #f3f0e8, large empty space, one accent color #e9b44c, scene: lettering lead (tea), no text, no logo, no faces on fruit, not cute cartoon",
+ "seed": 11,
+ "rationale": [
+  "moods ['playful']",
+  "picked lettering_lead (2.6): [\"mood fit ['playful']\", '1 refs use emotion']",
+  "text style quiet_note @ 0.31 for mood playful"
+ ],
+ "layout_boxes": {
+  "strategy": "lettering_lead",
+  "align": "left",
+  "vertical": false,
+  "title": [
+   86,
+   225,
+   1056,
+   891
+  ],
+  "subject": [
+   558,
+   944,
+   1064,
+   1388
+  ],
+  "info": [
+   95,
+   1442,
+   832,
+   1518
+  ]
+ }
+}

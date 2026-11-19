@@ -1,0 +1,45 @@
+# Public pages used as reference sources. Edit freely; collect is idempotent.
+# source: one of schema.Source. campaign: optional label used for retrieval diversity.
+# These are third-party media reposts of HEYTEA work: copyright stays with the rights holder,
+# images are stored locally for research only and are NOT redistributed with the Skill.
+pages:
+  - {url: "https://foodaily.com/index.php/articles/40843", source: news_media, note: "翻红的喜茶，能打的不只是设计 (2025-12)"}
+  - {url: "https://foodaily.com/index.php/articles/40819", source: news_media, campaign: "blank_paper_2025_11", note: "一张白纸 (2025-11)"}
+  - {url: "https://socialbeta.com/article/110823", source: design_media, campaign: "starman_popmart_2025_12", note: "星星人联名"}
+  - {url: "https://socialbeta.com/campaign/26662", source: design_media, campaign: "starman_popmart_2025_12"}
+  - {url: "https://m.adquan.com/detail/10-359722", source: design_media, campaign: "guava_hellokitty_2026_04"}
+  - {url: "https://m.adquan.com/detail/0-357622", source: design_media, campaign: "starman_popmart_2025_12"}
+  - {url: "https://post.smzdm.com/zz/p/ax6onped/", source: community_post, note: "喜茶这波海报设计 (2025-11)"}
+  - {url: "https://www.digitaling.com/articles/317624.html", source: design_media}
+  - {url: "https://m.finance.itbear.com.cn/html/2026-04/385996.html", source: news_media}
+  - {url: "https://m.sohu.com/a/1016211099_122015047/", source: news_media}
+  - {url: "https://zhangtianteng.xyz/work/visual-028/", source: designer_portfolio, campaign: "boom_series"}
+  - {url: "https://zhangtianteng.xyz/work/visual-030/", source: designer_portfolio, campaign: "boom_series"}
+  # --- batch 2 (searched 2026-11-18) ---
+  - {url: "https://int.canyinj.com/zhuanlan/article/id/23598/uid/1021.html", source: news_media, campaign: "xishi_duoduo_2025_09", note: "喜柿多多 x 艺术家易辉"}
+  - {url: "https://www.adquan.com/article/357109", source: design_media, campaign: "caotai_banzi_2025_11", note: "围挡写错字 草台班子"}
+  - {url: "https://www.digitaling.com/articles/1432857.html", source: design_media, campaign: "caotai_banzi_2025_11"}
+  - {url: "https://www.digitaling.com/articles/319703.html", source: design_media, note: "土味广告 (older)"}
+  - {url: "https://www.ganhuoku.cn/archives/355824", source: design_media, note: "设计部可以拍板 (2026-03 roundup)"}
+  - {url: "https://post.smzdm.com/p/a5rznd27/", source: community_post, note: "拙趣风爆火 (2026-06)"}
+  - {url: "https://m.adquan.com/creative/detail/361688", source: design_media, campaign: "local_aesthetics_2026_07", note: "在地美学"}
+  - {url: "https://www.adquan.com/article/358534", source: design_media, campaign: "cny_horse_2026_02", note: "春节 马思纯"}
+  - {url: "https://socialbeta.com/campaign/26948", source: design_media, campaign: "cny_horse_2026_02"}
+  - {url: "https://www.brandstar.com.cn/articles/source-8058/", source: design_media, note: "小内容"}
+  - {url: "http://fashion.ynet.com/2026/04/08/3999727t3228.html", source: news_media, campaign: "guava_hellokitty_2026_04"}
+  - {url: "https://foodaily.com/index.php/articles/31671", source: news_media, campaign: "city_skins_2023", note: "50+城市皮肤 (2023, evolution context)", max_images: 20}
+  - {url: "https://www.163.com/dy/article/FB7EQTJJ051598Q4.html", source: news_media, note: "2020 overview, evolution context", max_images: 25}
+  - {url: "https://www.archiposition.com/items/6bb4241b7d", source: design_media, campaign: "store_jinsha_cq_2026", note: "门店 一点拙趣", max_images: 15}
+  - {url: "https://www.gooood.cn/heytea-one-avenue-store-by-ruhaus-studio.htm", source: design_media, campaign: "store_one_avenue_sz_2026", max_images: 12}
+  - {url: "https://designbycurio.com/zh/learn/heytea-line-drawing-tea-2012", source: design_media, note: "third-party style explainer; images may be their own recreations"}
+
+# Sources checked and NOT collected (recorded, not bypassed). Checked 2026-11-18.
+restricted:
+  - {url: "https://www.ccn.com.cn/Content/2025/09-17/1817459155.html", reason: "HTTP 521"}
+  - {url: "https://m.weibo.cn/...", reason: "Sina Visitor System"}
+  - {url: "https://weibo.com/heytea", reason: "Sina Visitor System verification wall"}
+  - {url: "https://www.xiaohongshu.com", reason: "login required"}
+  - {url: "https://mp.weixin.qq.com/s?...", reason: "WeChat articles return an environment-verification shell to non-browser clients (7 articles)"}
+  - {url: "https://www.foodtalks.cn/news/62117", reason: "client-side rendered; no images in served HTML"}
+  - {url: "https://www.shejidaren.com/xi-cha-xin-hai-bao-chuang-yi-shi-zu.html", reason: "HTTP 403"}
+  - {url: "https://www.heytea.com", reason: "SPA shell, no campaign imagery in served HTML"}

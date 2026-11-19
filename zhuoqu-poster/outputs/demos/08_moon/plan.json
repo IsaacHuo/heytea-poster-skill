@@ -1,0 +1,349 @@
+{
+ "brief": {
+  "request": "中秋节海报，温暖 “月满，杯满”",
+  "title": "月满，杯满",
+  "title_is_draft": false,
+  "subtitle": null,
+  "info": [],
+  "moods": [
+   "natural",
+   "warm"
+  ],
+  "ratio": "9:16",
+  "size": [
+   1080,
+   1920
+  ],
+  "subject_keyword": "中秋",
+  "fruit_kind": null,
+  "product": null,
+  "season": "autumn",
+  "photo": null
+ },
+ "candidates": [
+  {
+   "concept": "cup_lifts_fruit",
+   "technique": "personification",
+   "story": "杯子长出两条胳膊，把中秋高高举过头顶",
+   "metaphor": "杯子在炫耀它装了什么",
+   "layout": "subject_center",
+   "palette_mode": "single_accent",
+   "score": 4.6,
+   "why": [
+    "mood fit ['natural', 'warm']",
+    "1 refs use personification"
+   ]
+  },
+  {
+   "concept": "lettering_lead",
+   "technique": "emotion",
+   "story": "字是主角，一个小人靠着杯子听你说",
+   "metaphor": "一句话就是一张海报",
+   "layout": "lettering_lead",
+   "palette_mode": "single_accent",
+   "score": 2.6,
+   "why": [
+    "mood fit ['warm']",
+    "1 refs use emotion"
+   ]
+  },
+  {
+   "concept": "fallen_cup_tree",
+   "technique": "everyday_metaphor",
+   "story": "一棵树下倒着一杯中秋茶，像有人在这里发了会儿呆",
+   "metaphor": "喝茶 = 允许自己停一下",
+   "layout": "negative_space",
+   "palette_mode": "single_accent",
+   "score": 2.0,
+   "why": [
+    "mood fit ['natural']"
+   ]
+  },
+  {
+   "concept": "drip_into_cup",
+   "technique": "action_exaggeration",
+   "story": "中秋悬在杯子上方，汁水一滴一滴落进去",
+   "metaphor": "原料直接变成这杯饮品",
+   "layout": "subject_center",
+   "palette_mode": "two_tone",
+   "score": 2.0,
+   "why": [
+    "mood fit ['natural']"
+   ]
+  },
+  {
+   "concept": "push_giant_cup",
+   "technique": "scale_contrast",
+   "story": "一个小人用尽全力推着一杯比他大得多的中秋茶",
+   "metaphor": "好东西值得费点力气",
+   "layout": "subject_offset",
+   "palette_mode": "single_accent",
+   "score": 0.0,
+   "why": [
+    "mood fit -"
+   ]
+  },
+  {
+   "concept": "leap_on_cup",
+   "technique": "humorous_contrast",
+   "story": "小人兴奋地跳上杯盖，身后炸开一团颜色",
+   "metaphor": "高兴到坐不住",
+   "layout": "subject_offset",
+   "palette_mode": "single_accent",
+   "score": 0.0,
+   "why": [
+    "mood fit -"
+   ]
+  },
+  {
+   "concept": "color_field",
+   "technique": "nature_simplification",
+   "story": "把中秋的味道画成两块颜色，角落放一只小杯子",
+   "metaphor": "口感 -> 色彩关系",
+   "layout": "color_field",
+   "palette_mode": "two_tone",
+   "score": 0.0,
+   "why": [
+    "mood fit -"
+   ]
+  }
+ ],
+ "concept": {
+  "concept": "cup_lifts_fruit",
+  "technique": "personification",
+  "story": "杯子长出两条胳膊，把中秋高高举过头顶",
+  "metaphor": "杯子在炫耀它装了什么",
+  "layout": "subject_center",
+  "palette_mode": "single_accent",
+  "score": 4.6,
+  "why": [
+   "mood fit ['natural', 'warm']",
+   "1 refs use personification"
+  ]
+ },
+ "palette": {
+  "paper": "#f3f0e8",
+  "ink": "#161514",
+  "soft_ink": "#4a4743",
+  "accents": [
+   "#f2d16b"
+  ],
+  "mode": "single_accent",
+  "subject_keyword": "中秋",
+  "fruit_kind": null
+ },
+ "texts": {
+  "title": {
+   "text": "月满，杯满",
+   "role": "expressive",
+   "protect": [],
+   "draft": false,
+   "style": "playful_handwritten",
+   "intensity": 0.5,
+   "layout": "organic",
+   "overrides": {},
+   "notes": []
+  },
+  "subtitle": null,
+  "info": []
+ },
+ "layout": "subject_center",
+ "references": [
+  {
+   "id": "heyt_0237",
+   "score": 7.458,
+   "reasons": [
+    "subj:drink",
+    "text:中秋/月满/杯满/满杯",
+    "clip 0.299"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://cdn.ganhuoku.cn/ganhuoku-cn/2026/03/2026031907440163.png",
+   "page_url": "https://www.ganhuoku.cn/archives/355824",
+   "local_path": "data/originals/heyt_0237.png",
+   "note": "月满, 杯满 中秋快乐 small handwritten top; cup with drawn arms/legs holding up a yellow moon-like fill; blue line + yellow accent on warm off-white",
+   "techniques": [
+    "personification"
+   ]
+  },
+  {
+   "id": "heyt_0027",
+   "score": 4.59,
+   "reasons": [
+    "subj:drink",
+    "clip 0.354"
+   ],
+   "campaign": null,
+   "brand_relation": "unverified",
+   "source": "news_media",
+   "source_url": "https://cdn.img.foodaily.com/images/articles/2025/12/02/1764613983_NdHPEBKq4my84ZaX.jpeg",
+   "page_url": "https://foodaily.com/index.php/articles/40843",
+   "local_path": "data/originals/heyt_0027.jpg",
+   "note": "dark moody photo, glowing cup in frame-in-frame; tiny caption; quiet premium mood (older 'high-end' line)",
+   "techniques": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "heyt_0110",
+   "score": 4.003,
+   "reasons": [
+    "subj:drink",
+    "clip 0.259"
+   ],
+   "campaign": "guava_hellokitty_2026_04",
+   "brand_relation": "official_collab",
+   "source": "design_media",
+   "source_url": "https://oss.adquan.com/uploads_img/1775627396ebfa931975642d5f.jpg",
+   "page_url": "https://m.adquan.com/detail/10-359722",
+   "local_path": "data/originals/heyt_0110.webp",
+   "note": "樱花芭乐白桃 handwritten title; same system as 0109",
+   "techniques": []
+  },
+  {
+   "id": "heyt_0218",
+   "score": 3.945,
+   "reasons": [
+    "subj:drink",
+    "clip 0.260"
+   ],
+   "campaign": "caotai_banzi_2025_11",
+   "brand_relation": "unverified",
+   "source": "design_media",
+   "source_url": "https://file.digitaling.com/eImg/cover/20251118/20251118175646_35835.png",
+   "page_url": "https://www.digitaling.com/articles/1432857.html",
+   "local_path": "data/originals/heyt_0218.png",
+   "note": "white cups with big handwritten single characters 才/果 + 4-digit order numbers + doodle figure",
+   "techniques": []
+  },
+  {
+   "id": "heyt_0294",
+   "score": 3.853,
+   "reasons": [
+    "subj:drink",
+    "clip 0.237"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://www.brandstar.com.cn/wp-content/uploads/brandstar-mirror/3c/3c3a54f6e872dbf9a7511a158e5d4b8852f5780ae51f0d743118cc39de7c24be.png",
+   "page_url": "https://www.brandstar.com.cn/articles/source-8058/",
+   "local_path": "data/originals/heyt_0294.png",
+   "note": "cup on wood table with leaf coaster, lifestyle",
+   "techniques": []
+  },
+  {
+   "id": "heyt_0057",
+   "score": 3.727,
+   "reasons": [
+    "subj:drink",
+    "clip 0.213"
+   ],
+   "campaign": "starman_popmart_2025_12",
+   "brand_relation": "unverified",
+   "source": "design_media",
+   "source_url": "https://socialbeta.oss-cn-hangzhou.aliyuncs.com/upload/198246-1766389642.jpg",
+   "page_url": "https://socialbeta.com/article/110823",
+   "local_path": "data/originals/heyt_0057.jpg",
+   "note": "rows of cups with Starman IP print, dome lids - collab packaging",
+   "techniques": []
+  }
+ ],
+ "concept_references": [
+  {
+   "id": "heyt_0237",
+   "score": 9.458,
+   "reasons": [
+    "tech:personification",
+    "subj:drink",
+    "text:中秋/月满/杯满/满杯",
+    "clip 0.299"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://cdn.ganhuoku.cn/ganhuoku-cn/2026/03/2026031907440163.png",
+   "page_url": "https://www.ganhuoku.cn/archives/355824",
+   "local_path": "data/originals/heyt_0237.png",
+   "note": "月满, 杯满 中秋快乐 small handwritten top; cup with drawn arms/legs holding up a yellow moon-like fill; blue line + yellow accent on warm off-white"
+  },
+  {
+   "id": "heyt_0029",
+   "score": 6.4,
+   "reasons": [
+    "tech:personification",
+    "subj:drink",
+    "clip 0.325"
+   ],
+   "campaign": null,
+   "brand_relation": "unverified",
+   "source": "news_media",
+   "source_url": "https://cdn.img.foodaily.com/images/articles/2025/12/02/1764613984_HdMHNuDijLpBOSXd.jpeg",
+   "page_url": "https://foodaily.com/index.php/articles/40843",
+   "local_path": "data/originals/heyt_0029.jpg",
+   "note": "'牛肝菌云顶' red wobbly handwritten title top-left; real cup photo; drawn sauce bottle pouring onto drawn mushrooms standing on foam; doodle face on cup; pink soft g"
+  },
+  {
+   "id": "heyt_0110",
+   "score": 4.003,
+   "reasons": [
+    "subj:drink",
+    "clip 0.259"
+   ],
+   "campaign": "guava_hellokitty_2026_04",
+   "brand_relation": "official_collab",
+   "source": "design_media",
+   "source_url": "https://oss.adquan.com/uploads_img/1775627396ebfa931975642d5f.jpg",
+   "page_url": "https://m.adquan.com/detail/10-359722",
+   "local_path": "data/originals/heyt_0110.webp",
+   "note": "樱花芭乐白桃 handwritten title; same system as 0109"
+  },
+  {
+   "id": "heyt_0218",
+   "score": 3.945,
+   "reasons": [
+    "subj:drink",
+    "clip 0.260"
+   ],
+   "campaign": "caotai_banzi_2025_11",
+   "brand_relation": "unverified",
+   "source": "design_media",
+   "source_url": "https://file.digitaling.com/eImg/cover/20251118/20251118175646_35835.png",
+   "page_url": "https://www.digitaling.com/articles/1432857.html",
+   "local_path": "data/originals/heyt_0218.png",
+   "note": "white cups with big handwritten single characters 才/果 + 4-digit order numbers + doodle figure"
+  }
+ ],
+ "image_prompt": "minimal hand-drawn doodle illustration, single black felt-pen line of constant width, slightly wobbly, flat color fill slightly off the line, warm off-white paper background #f3f0e8, large empty space, one accent color #f2d16b, scene: cup lifts fruit (中秋), no text, no logo, no faces on fruit, not cute cartoon",
+ "seed": 11,
+ "rationale": [
+  "moods ['natural', 'warm']",
+  "picked cup_lifts_fruit (4.6): [\"mood fit ['natural', 'warm']\", '1 refs use personification']",
+  "text style playful_handwritten @ 0.5 for mood natural"
+ ],
+ "layout_boxes": {
+  "strategy": "subject_center",
+  "align": "center",
+  "vertical": false,
+  "title": [
+   99,
+   135,
+   972,
+   494
+  ],
+  "subject": [
+   179,
+   614,
+   893,
+   1627
+  ],
+  "info": [
+   107,
+   1712,
+   965,
+   1821
+  ]
+ }
+}

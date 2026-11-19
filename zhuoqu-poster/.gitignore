@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+# third-party reference images: not redistributable (see LICENSES.md)
+data/originals/
+data/thumbnails/
+data/indexes/
+outputs/*
+!outputs/demos/
+# font binaries: fetched by scripts/fetch_fonts.py (OFL texts stay committed)
+assets/fonts/*.ttf

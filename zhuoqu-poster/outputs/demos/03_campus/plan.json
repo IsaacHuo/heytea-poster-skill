@@ -1,0 +1,389 @@
+{
+ "brief": {
+  "request": "为一个校园活动制作轻松、俏皮、有手绘感的宣传图 “下课去喝一杯”",
+  "title": "下课去喝一杯",
+  "title_is_draft": false,
+  "subtitle": null,
+  "info": [
+   "12月5日 14:00-17:00",
+   "图书馆前草坪"
+  ],
+  "moods": [
+   "playful"
+  ],
+  "ratio": "3:4",
+  "size": [
+   1200,
+   1600
+  ],
+  "subject_keyword": null,
+  "fruit_kind": null,
+  "product": null,
+  "season": null,
+  "photo": null
+ },
+ "candidates": [
+  {
+   "concept": "push_giant_cup",
+   "technique": "scale_contrast",
+   "story": "一个小人用尽全力推着一杯比他大得多的茶",
+   "metaphor": "好东西值得费点力气",
+   "layout": "subject_offset",
+   "palette_mode": "single_accent",
+   "score": 2.6,
+   "why": [
+    "mood fit ['playful']",
+    "1 refs use scale_contrast"
+   ]
+  },
+  {
+   "concept": "leap_on_cup",
+   "technique": "humorous_contrast",
+   "story": "小人兴奋地跳上杯盖，身后炸开一团颜色",
+   "metaphor": "高兴到坐不住",
+   "layout": "subject_offset",
+   "palette_mode": "single_accent",
+   "score": 2.6,
+   "why": [
+    "mood fit ['playful']",
+    "1 refs use humorous_contrast"
+   ]
+  },
+  {
+   "concept": "lettering_lead",
+   "technique": "emotion",
+   "story": "字是主角，一个小人靠着杯子听你说",
+   "metaphor": "一句话就是一张海报",
+   "layout": "lettering_lead",
+   "palette_mode": "single_accent",
+   "score": 2.0,
+   "why": [
+    "mood fit ['playful']"
+   ]
+  },
+  {
+   "concept": "fallen_cup_tree",
+   "technique": "everyday_metaphor",
+   "story": "一棵树下倒着一杯茶，像有人在这里发了会儿呆",
+   "metaphor": "喝茶 = 允许自己停一下",
+   "layout": "negative_space",
+   "palette_mode": "single_accent",
+   "score": 1.2,
+   "why": [
+    "mood fit -",
+    "2 refs use everyday_metaphor"
+   ]
+  },
+  {
+   "concept": "cup_lifts_fruit",
+   "technique": "personification",
+   "story": "杯子长出两条胳膊，把一颗果子高高举过头顶",
+   "metaphor": "杯子在炫耀它装了什么",
+   "layout": "subject_center",
+   "palette_mode": "single_accent",
+   "score": 0.5,
+   "why": [
+    "mood fit ['playful']",
+    "no concrete subject to show"
+   ]
+  },
+  {
+   "concept": "drip_into_cup",
+   "technique": "action_exaggeration",
+   "story": "一颗果子悬在杯子上方，汁水一滴一滴落进去",
+   "metaphor": "原料直接变成这杯饮品",
+   "layout": "subject_center",
+   "palette_mode": "two_tone",
+   "score": -0.3,
+   "why": [
+    "mood fit -",
+    "no concrete subject to show",
+    "2 refs use action_exaggeration"
+   ]
+  },
+  {
+   "concept": "color_field",
+   "technique": "nature_simplification",
+   "story": "把一颗果子的味道画成两块颜色，角落放一只小杯子",
+   "metaphor": "口感 -> 色彩关系",
+   "layout": "color_field",
+   "palette_mode": "two_tone",
+   "score": -1.5,
+   "why": [
+    "mood fit -",
+    "no concrete subject to show"
+   ]
+  }
+ ],
+ "concept": {
+  "concept": "push_giant_cup",
+  "technique": "scale_contrast",
+  "story": "一个小人用尽全力推着一杯比他大得多的茶",
+  "metaphor": "好东西值得费点力气",
+  "layout": "subject_offset",
+  "palette_mode": "single_accent",
+  "score": 2.6,
+  "why": [
+   "mood fit ['playful']",
+   "1 refs use scale_contrast"
+  ]
+ },
+ "palette": {
+  "paper": "#f3f0e8",
+  "ink": "#161514",
+  "soft_ink": "#4a4743",
+  "accents": [
+   "#e9b44c"
+  ],
+  "mode": "single_accent",
+  "subject_keyword": null,
+  "fruit_kind": null
+ },
+ "texts": {
+  "title": {
+   "text": "下课去喝一杯",
+   "role": "expressive",
+   "protect": [],
+   "draft": false,
+   "style": "playful_handwritten",
+   "intensity": 0.62,
+   "layout": "organic",
+   "overrides": {},
+   "notes": []
+  },
+  "subtitle": null,
+  "info": [
+   {
+    "text": "12月5日 14:00-17:00",
+    "role": "functional"
+   },
+   {
+    "text": "图书馆前草坪",
+    "role": "functional"
+   }
+  ]
+ },
+ "layout": "subject_offset",
+ "references": [
+  {
+   "id": "heyt_0011",
+   "score": 7.855,
+   "reasons": [
+    "cat:pure_illustration",
+    "typo:functional",
+    "subj:drink",
+    "clip 0.288"
+   ],
+   "campaign": null,
+   "brand_relation": "unverified",
+   "source": "news_media",
+   "source_url": "https://cdn.img.foodaily.com/images/articles/2025/12/02/1764613966_H4gHUl8VFTNT8YSD.png",
+   "page_url": "https://foodaily.com/index.php/articles/40843",
+   "local_path": "data/originals/heyt_0011.png",
+   "note": "thin pencil line cup sketch, question mark, short handwritten line; extremely sparse",
+   "techniques": [
+    "everyday_metaphor"
+   ]
+  },
+  {
+   "id": "heyt_0248",
+   "score": 7.816,
+   "reasons": [
+    "cat:photo_plus_drawing",
+    "typo:functional",
+    "subj:drink",
+    "clip 0.230"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://cdn.ganhuoku.cn/ganhuoku-cn/2026/03/2026031907445937.png",
+   "page_url": "https://www.ganhuoku.cn/archives/355824",
+   "local_path": "data/originals/heyt_0248.png",
+   "note": "metro lightbox 喜茶就在后海A出口: drawn stick figure pushing a giant real cup photo toward a drawn arrow/door; handwritten title left; wayfinding as joke",
+   "techniques": [
+    "action_exaggeration",
+    "scale_contrast",
+    "everyday_metaphor"
+   ]
+  },
+  {
+   "id": "heyt_0218",
+   "score": 7.602,
+   "reasons": [
+    "cat:photo_plus_drawing",
+    "typo:functional",
+    "subj:drink",
+    "clip 0.202"
+   ],
+   "campaign": "caotai_banzi_2025_11",
+   "brand_relation": "unverified",
+   "source": "design_media",
+   "source_url": "https://file.digitaling.com/eImg/cover/20251118/20251118175646_35835.png",
+   "page_url": "https://www.digitaling.com/articles/1432857.html",
+   "local_path": "data/originals/heyt_0218.png",
+   "note": "white cups with big handwritten single characters 才/果 + 4-digit order numbers + doodle figure",
+   "techniques": []
+  },
+  {
+   "id": "heyt_0110",
+   "score": 7.599,
+   "reasons": [
+    "cat:pure_illustration",
+    "typo:functional",
+    "subj:drink",
+    "clip 0.192"
+   ],
+   "campaign": "guava_hellokitty_2026_04",
+   "brand_relation": "official_collab",
+   "source": "design_media",
+   "source_url": "https://oss.adquan.com/uploads_img/1775627396ebfa931975642d5f.jpg",
+   "page_url": "https://m.adquan.com/detail/10-359722",
+   "local_path": "data/originals/heyt_0110.webp",
+   "note": "樱花芭乐白桃 handwritten title; same system as 0109",
+   "techniques": []
+  },
+  {
+   "id": "heyt_0104",
+   "score": 7.497,
+   "reasons": [
+    "cat:pure_illustration",
+    "typo:functional",
+    "tech:humorous_contrast",
+    "clip 0.185"
+   ],
+   "campaign": "starman_popmart_2025_12",
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://socialbeta.oss-cn-hangzhou.aliyuncs.com/upload/24325-BhlaVWCPSKrdX4mL.jpg?x-oss-process=image/resize,m_fill,w_630,h_420,limit_0/auto-orient,1/format,jpg",
+   "page_url": "https://socialbeta.com/campaign/26662",
+   "local_path": "data/originals/heyt_0104.jpg",
+   "note": "crayon-colored stick kid sprawling with brush, handwritten exam-style list 美术x3; date 11.21 + time + venue as small functional text bottom-left; event flyer",
+   "techniques": [
+    "action_exaggeration",
+    "humorous_contrast"
+   ]
+  },
+  {
+   "id": "heyt_0268",
+   "score": 6.001,
+   "reasons": [
+    "cat:photo_plus_drawing",
+    "subj:drink",
+    "text:活动",
+    "clip 0.127"
+   ],
+   "campaign": "cny_horse_2026_02",
+   "brand_relation": "official_collab",
+   "source": "design_media",
+   "source_url": "https://oss.adquan.com/uploads_img/1770349878ab8507c3f0b18d79.jpg",
+   "page_url": "https://www.adquan.com/article/358534",
+   "local_path": "data/originals/heyt_0268.jpg",
+   "note": "CNY red bags/cups with small white childlike horse drawing; festive red but restrained, cozy home photo setting",
+   "techniques": []
+  }
+ ],
+ "concept_references": [
+  {
+   "id": "heyt_0248",
+   "score": 12.019,
+   "reasons": [
+    "cat:photo_plus_drawing",
+    "typo:functional",
+    "tech:scale_contrast",
+    "subj:drink,person",
+    "clip 0.264"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://cdn.ganhuoku.cn/ganhuoku-cn/2026/03/2026031907445937.png",
+   "page_url": "https://www.ganhuoku.cn/archives/355824",
+   "local_path": "data/originals/heyt_0248.png",
+   "note": "metro lightbox 喜茶就在后海A出口: drawn stick figure pushing a giant real cup photo toward a drawn arrow/door; handwritten title left; wayfinding as joke"
+  },
+  {
+   "id": "heyt_0104",
+   "score": 9.774,
+   "reasons": [
+    "cat:pure_illustration",
+    "typo:functional",
+    "tech:humorous_contrast",
+    "subj:person",
+    "clip 0.232"
+   ],
+   "campaign": "starman_popmart_2025_12",
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://socialbeta.oss-cn-hangzhou.aliyuncs.com/upload/24325-BhlaVWCPSKrdX4mL.jpg?x-oss-process=image/resize,m_fill,w_630,h_420,limit_0/auto-orient,1/format,jpg",
+   "page_url": "https://socialbeta.com/campaign/26662",
+   "local_path": "data/originals/heyt_0104.jpg",
+   "note": "crayon-colored stick kid sprawling with brush, handwritten exam-style list 美术x3; date 11.21 + time + venue as small functional text bottom-left; event flyer"
+  },
+  {
+   "id": "heyt_0009",
+   "score": 8.279,
+   "reasons": [
+    "cat:pure_illustration",
+    "typo:functional",
+    "tech:scale_contrast",
+    "text:一个",
+    "clip 0.228"
+   ],
+   "campaign": null,
+   "brand_relation": "unverified",
+   "source": "news_media",
+   "source_url": "https://cdn.img.foodaily.com/images/articles/2025/12/02/1764613964_cXf43RDSKgOWeZQJ.jpeg",
+   "page_url": "https://foodaily.com/index.php/articles/40843",
+   "local_path": "data/originals/heyt_0009.jpg",
+   "note": "tulou building drawn small top-left, stacked persimmons on stool; vertical handwritten headline right; tiny body text; ~70% paper white"
+  },
+  {
+   "id": "heyt_0295",
+   "score": 7.955,
+   "reasons": [
+    "cat:pure_illustration",
+    "tech:scale_contrast",
+    "subj:person",
+    "clip 0.263"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://www.brandstar.com.cn/wp-content/uploads/brandstar-mirror/03/03160148bb9538fe9042f589b4c20eabd1960501edab8f00ed121c127fa9f2f0.gif",
+   "page_url": "https://www.brandstar.com.cn/articles/source-8058/",
+   "local_path": "data/originals/heyt_0295.gif",
+   "note": "hand-drawn phone outline framing handwritten text + leaf drawing; tiny figure leans on phone corner"
+  }
+ ],
+ "image_prompt": "minimal hand-drawn doodle illustration, single black felt-pen line of constant width, slightly wobbly, flat color fill slightly off the line, warm off-white paper background #f3f0e8, large empty space, one accent color #e9b44c, scene: push giant cup (tea), no text, no logo, no faces on fruit, not cute cartoon",
+ "seed": 11,
+ "rationale": [
+  "moods ['playful']",
+  "picked push_giant_cup (2.6): [\"mood fit ['playful']\", '1 refs use scale_contrast']",
+  "text style playful_handwritten @ 0.62 for mood playful"
+ ],
+ "layout_boxes": {
+  "strategy": "subject_offset",
+  "align": "left",
+  "vertical": false,
+  "title": [
+   86,
+   129,
+   768,
+   507
+  ],
+  "subject": [
+   294,
+   608,
+   1088,
+   1388
+  ],
+  "info": [
+   95,
+   1442,
+   832,
+   1518
+  ]
+ }
+}

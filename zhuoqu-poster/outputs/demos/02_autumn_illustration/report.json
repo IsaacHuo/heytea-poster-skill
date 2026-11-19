@@ -1,0 +1,42 @@
+{
+ "passed": true,
+ "hard_failures": [],
+ "warnings": [],
+ "texts": [
+  {
+   "text": "这一口是柿子",
+   "role": "expressive",
+   "box": [
+    109,
+    156,
+    636,
+    246
+   ],
+   "ocr": "这一口是柿子",
+   "similarity": 1.0,
+   "collision": 0.0,
+   "contrast": 16.01
+  }
+ ],
+ "metrics": {
+  "whitespace": 0.947,
+  "edge_density": 0.0114,
+  "colorfulness": 5.86,
+  "text_ink_ratio": 0.0046,
+  "subject_ink_ratio": 0.0092,
+  "centroid": [
+   0.5001,
+   0.5331
+  ]
+ },
+ "backend": "procedural",
+ "backend_notes": [],
+ "seconds": 4.3,
+ "title_render": {
+  "style": "playful_handwritten",
+  "intensity": 0.5,
+  "attempts": 1,
+  "legibility": 1.0,
+  "warnings": []
+ }
+}

@@ -1,0 +1,370 @@
+{
+ "brief": {
+  "request": "使用少量文字和大片留白，制作一张品牌风格海报，龙井",
+  "title": null,
+  "title_is_draft": true,
+  "subtitle": null,
+  "info": [],
+  "moods": [
+   "quiet",
+   "artistic"
+  ],
+  "ratio": "3:4",
+  "size": [
+   1200,
+   1600
+  ],
+  "subject_keyword": "龙井",
+  "fruit_kind": null,
+  "product": null,
+  "season": null,
+  "photo": null
+ },
+ "candidates": [
+  {
+   "concept": "fallen_cup_tree",
+   "technique": "everyday_metaphor",
+   "story": "一棵树下倒着一杯龙井茶，像有人在这里发了会儿呆",
+   "metaphor": "喝茶 = 允许自己停一下",
+   "layout": "negative_space",
+   "palette_mode": "single_accent",
+   "score": 6.1,
+   "why": [
+    "mood fit ['quiet']",
+    "3 refs use everyday_metaphor",
+    "explicit whitespace request +1.5",
+    "quiet -> large negative space"
+   ]
+  },
+  {
+   "concept": "color_field",
+   "technique": "nature_simplification",
+   "story": "把龙井的味道画成两块颜色，角落放一只小杯子",
+   "metaphor": "口感 -> 色彩关系",
+   "layout": "color_field",
+   "palette_mode": "two_tone",
+   "score": 3.1,
+   "why": [
+    "mood fit ['artistic', 'quiet']",
+    "1 refs use nature_simplification",
+    "explicit whitespace request -1.5"
+   ]
+  },
+  {
+   "concept": "lettering_lead",
+   "technique": "emotion",
+   "story": "字是主角，一个小人靠着杯子听你说",
+   "metaphor": "一句话就是一张海报",
+   "layout": "lettering_lead",
+   "palette_mode": "single_accent",
+   "score": 2.8,
+   "why": [
+    "mood fit ['quiet']",
+    "explicit whitespace request +0.8"
+   ]
+  },
+  {
+   "concept": "drip_into_cup",
+   "technique": "action_exaggeration",
+   "story": "龙井悬在杯子上方，汁水一滴一滴落进去",
+   "metaphor": "原料直接变成这杯饮品",
+   "layout": "subject_center",
+   "palette_mode": "two_tone",
+   "score": 2.0,
+   "why": [
+    "mood fit ['quiet']"
+   ]
+  },
+  {
+   "concept": "leap_on_cup",
+   "technique": "humorous_contrast",
+   "story": "小人兴奋地跳上杯盖，身后炸开一团颜色",
+   "metaphor": "高兴到坐不住",
+   "layout": "subject_offset",
+   "palette_mode": "single_accent",
+   "score": 1.2,
+   "why": [
+    "mood fit -",
+    "2 refs use humorous_contrast"
+   ]
+  },
+  {
+   "concept": "push_giant_cup",
+   "technique": "scale_contrast",
+   "story": "一个小人用尽全力推着一杯比他大得多的龙井茶",
+   "metaphor": "好东西值得费点力气",
+   "layout": "subject_offset",
+   "palette_mode": "single_accent",
+   "score": 0.6,
+   "why": [
+    "mood fit -",
+    "1 refs use scale_contrast"
+   ]
+  },
+  {
+   "concept": "cup_lifts_fruit",
+   "technique": "personification",
+   "story": "杯子长出两条胳膊，把龙井高高举过头顶",
+   "metaphor": "杯子在炫耀它装了什么",
+   "layout": "subject_center",
+   "palette_mode": "single_accent",
+   "score": 0.0,
+   "why": [
+    "mood fit -"
+   ]
+  }
+ ],
+ "concept": {
+  "concept": "fallen_cup_tree",
+  "technique": "everyday_metaphor",
+  "story": "一棵树下倒着一杯龙井茶，像有人在这里发了会儿呆",
+  "metaphor": "喝茶 = 允许自己停一下",
+  "layout": "negative_space",
+  "palette_mode": "single_accent",
+  "score": 6.1,
+  "why": [
+   "mood fit ['quiet']",
+   "3 refs use everyday_metaphor",
+   "explicit whitespace request +1.5",
+   "quiet -> large negative space"
+  ]
+ },
+ "palette": {
+  "paper": "#f3f0e8",
+  "ink": "#161514",
+  "soft_ink": "#4a4743",
+  "accents": [
+   "#6f8f4e"
+  ],
+  "mode": "single_accent",
+  "subject_keyword": "龙井",
+  "fruit_kind": null
+ },
+ "texts": {
+  "title": {
+   "text": "龙井的味道，安安静静",
+   "role": "expressive",
+   "protect": [],
+   "draft": true,
+   "style": "quiet_note",
+   "intensity": 0.45,
+   "layout": "organic",
+   "overrides": {},
+   "notes": []
+  },
+  "subtitle": null,
+  "info": []
+ },
+ "layout": "negative_space",
+ "references": [
+  {
+   "id": "heyt_0234",
+   "score": 4.759,
+   "reasons": [
+    "whitespace 0.61",
+    "text:龙井",
+    "clip 0.245"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://cdn.ganhuoku.cn/ganhuoku-cn/2026/03/2026031907434659.png",
+   "page_url": "https://www.ganhuoku.cn/archives/355824",
+   "local_path": "data/originals/heyt_0234.png",
+   "note": "龙井的 not to do list: handwritten CN+EN title top-left, tea-plant photo inside wobbly hand-drawn rectangle frame, tiny doodle bee; frame-as-drawing",
+   "techniques": [
+    "everyday_metaphor",
+    "humorous_contrast"
+   ]
+  },
+  {
+   "id": "heyt_0295",
+   "score": 4.642,
+   "reasons": [
+    "whitespace 0.78",
+    "text:品牌",
+    "clip 0.244"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://www.brandstar.com.cn/wp-content/uploads/brandstar-mirror/03/03160148bb9538fe9042f589b4c20eabd1960501edab8f00ed121c127fa9f2f0.gif",
+   "page_url": "https://www.brandstar.com.cn/articles/source-8058/",
+   "local_path": "data/originals/heyt_0295.gif",
+   "note": "hand-drawn phone outline framing handwritten text + leaf drawing; tiny figure leans on phone corner",
+   "techniques": [
+    "everyday_metaphor",
+    "scale_contrast"
+   ]
+  },
+  {
+   "id": "heyt_0197",
+   "score": 4.028,
+   "reasons": [
+    "whitespace 0.74",
+    "clip 0.261"
+   ],
+   "campaign": "caotai_banzi_2025_11",
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://file.digitaling.com/eImg/uimages/20251127/remote_176421380096552.png",
+   "page_url": "https://www.digitaling.com/articles/1432857.html",
+   "local_path": "data/originals/heyt_0197.png",
+   "note": "construction hoarding, black marker handwriting 小憩一下 / 为呈现更好的喜茶 (with typo 星), small drawn ladder; grey wall as huge negative space",
+   "techniques": [
+    "humorous_contrast",
+    "everyday_metaphor"
+   ]
+  },
+  {
+   "id": "heyt_0058",
+   "score": 3.913,
+   "reasons": [
+    "whitespace 0.61",
+    "clip 0.237"
+   ],
+   "campaign": "starman_popmart_2025_12",
+   "brand_relation": "unverified",
+   "source": "design_media",
+   "source_url": "https://socialbeta.oss-cn-hangzhou.aliyuncs.com/upload/198246-1766375565.jpg",
+   "page_url": "https://socialbeta.com/article/110823",
+   "local_path": "data/originals/heyt_0058.jpg",
+   "note": "Starman x HEYTEA collab key visual/merch board; warm yellow, stars; licensed IP - campaign-specific style, not stable language",
+   "techniques": []
+  },
+  {
+   "id": "heyt_0015",
+   "score": 3.753,
+   "reasons": [
+    "whitespace 0.73",
+    "clip 0.271"
+   ],
+   "campaign": null,
+   "brand_relation": "unverified",
+   "source": "news_media",
+   "source_url": "https://cdn.img.foodaily.com/images/articles/2025/12/02/1764613972_3KoJYiuSRuN4LZJP.png",
+   "page_url": "https://foodaily.com/index.php/articles/40843",
+   "local_path": "data/originals/heyt_0015.png",
+   "note": "single leaf photo right, handwritten red title left",
+   "techniques": [
+    "nature_simplification"
+   ]
+  },
+  {
+   "id": "heyt_0109",
+   "score": 3.415,
+   "reasons": [
+    "whitespace 0.79",
+    "clip 0.166"
+   ],
+   "campaign": "guava_hellokitty_2026_04",
+   "brand_relation": "official_collab",
+   "source": "design_media",
+   "source_url": "https://oss.adquan.com/uploads_img/1775627396307b24e4abfa4d8a.jpg",
+   "page_url": "https://m.adquan.com/detail/10-359722",
+   "local_path": "data/originals/heyt_0109.jpg",
+   "note": "pink handwritten title 和Hello Kitty一起走进春天; line-drawn cup + IP; gingham footer; monochrome pink",
+   "techniques": []
+  }
+ ],
+ "concept_references": [
+  {
+   "id": "heyt_0011",
+   "score": 8.842,
+   "reasons": [
+    "tech:everyday_metaphor",
+    "subj:drink",
+    "whitespace 0.85",
+    "text:有人",
+    "clip 0.319"
+   ],
+   "campaign": null,
+   "brand_relation": "unverified",
+   "source": "news_media",
+   "source_url": "https://cdn.img.foodaily.com/images/articles/2025/12/02/1764613966_H4gHUl8VFTNT8YSD.png",
+   "page_url": "https://foodaily.com/index.php/articles/40843",
+   "local_path": "data/originals/heyt_0011.png",
+   "note": "thin pencil line cup sketch, question mark, short handwritten line; extremely sparse"
+  },
+  {
+   "id": "heyt_0234",
+   "score": 6.662,
+   "reasons": [
+    "tech:everyday_metaphor",
+    "whitespace 0.61",
+    "text:龙井",
+    "clip 0.229"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://cdn.ganhuoku.cn/ganhuoku-cn/2026/03/2026031907434659.png",
+   "page_url": "https://www.ganhuoku.cn/archives/355824",
+   "local_path": "data/originals/heyt_0234.png",
+   "note": "龙井的 not to do list: handwritten CN+EN title top-left, tea-plant photo inside wobbly hand-drawn rectangle frame, tiny doodle bee; frame-as-drawing"
+  },
+  {
+   "id": "heyt_0295",
+   "score": 6.522,
+   "reasons": [
+    "tech:everyday_metaphor",
+    "whitespace 0.78",
+    "text:品牌",
+    "clip 0.224"
+   ],
+   "campaign": null,
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://www.brandstar.com.cn/wp-content/uploads/brandstar-mirror/03/03160148bb9538fe9042f589b4c20eabd1960501edab8f00ed121c127fa9f2f0.gif",
+   "page_url": "https://www.brandstar.com.cn/articles/source-8058/",
+   "local_path": "data/originals/heyt_0295.gif",
+   "note": "hand-drawn phone outline framing handwritten text + leaf drawing; tiny figure leans on phone corner"
+  },
+  {
+   "id": "heyt_0198",
+   "score": 5.779,
+   "reasons": [
+    "tech:everyday_metaphor",
+    "whitespace 0.71",
+    "clip 0.219"
+   ],
+   "campaign": "caotai_banzi_2025_11",
+   "brand_relation": "official",
+   "source": "design_media",
+   "source_url": "https://file.digitaling.com/eImg/uimages/20251127/remote_176421380014838.png",
+   "page_url": "https://www.digitaling.com/articles/1432857.html",
+   "local_path": "data/originals/heyt_0198.png",
+   "note": "construction hoarding, black marker handwriting 小憩一下 / 为呈现更好的喜茶 (with typo 星), small drawn ladder; grey wall as huge negative space"
+  }
+ ],
+ "image_prompt": "minimal hand-drawn doodle illustration, single black felt-pen line of constant width, slightly wobbly, flat color fill slightly off the line, warm off-white paper background #f3f0e8, large empty space, one accent color #6f8f4e, scene: fallen cup tree (龙井), no text, no logo, no faces on fruit, not cute cartoon",
+ "seed": 11,
+ "rationale": [
+  "moods ['quiet', 'artistic']",
+  "picked fallen_cup_tree (6.1): [\"mood fit ['quiet']\", '3 refs use everyday_metaphor', 'explicit whitespace request +1.5', 'quiet -> large negative space']",
+  "text style quiet_note @ 0.45 for mood quiet"
+ ],
+ "layout_boxes": {
+  "strategy": "negative_space",
+  "align": "left",
+  "vertical": false,
+  "title": [
+   98,
+   145,
+   648,
+   507
+  ],
+  "subject": [
+   486,
+   896,
+   1064,
+   1388
+  ],
+  "info": [
+   107,
+   1442,
+   736,
+   1518
+  ]
+ }
+}

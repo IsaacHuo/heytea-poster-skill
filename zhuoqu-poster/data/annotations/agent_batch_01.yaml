@@ -1,0 +1,52 @@
+# Agent-assisted annotations (annotator: agent_assisted). Observed from contact sheets; NOT ground truth.
+# Format per id: decision (keep|reject|composite), cat (VisualCategory list), typo (TypographyRole list),
+# subj, tech, comp {layout, whitespace, density}, note. Rejected items keep a reason.
+# frame: app_ui means the artwork is shown inside a Weibo/XHS screenshot (crop needed before measuring).
+heyt_0001: {decision: composite, cat: [mixed], note: "article header collage of 5 visuals (peel cup, apple, store, pink cup)"}
+heyt_0002: {decision: reject, reason: "XHS post screenshot, artwork too small"}
+heyt_0003: {decision: reject, reason: "XHS screenshot of store wall"}
+heyt_0004: {decision: keep, cat: [photo_plus_drawing], typo: [expressive], subj: [drink, packaging], tech: [everyday_metaphor], comp: {layout: subject_offset, whitespace: small, density: medium}, note: "hand holding green cup; lid sticker mimics fruit peel spiral; book in background - lifestyle product photo"}
+heyt_0005: {decision: keep, cat: [photo_plus_drawing], typo: [expressive], subj: [drink, packaging, fruit], tech: [nature_simplification], comp: {layout: subject_center, whitespace: small, density: medium}, note: "grape drink; hand-drawn purple grape sticker on white label"}
+heyt_0006: {decision: keep, cat: [photo_plus_drawing], typo: [functional, expressive], subj: [drink, packaging], tech: [personification], comp: {layout: subject_center, whitespace: small, density: medium}, note: "black cup, white doodle character printed, plant backdrop"}
+heyt_0007: {decision: keep, cat: [photo_plus_drawing], typo: [expressive], subj: [drink, packaging], tech: [emotion], comp: {layout: subject_center, whitespace: small, density: medium}, note: "handheld cup, doodle sticker label"}
+heyt_0008: {decision: composite, cat: [documentary_photo_text], note: "3 minimal official posts side by side: green leaf still life, fruit still life, black mountain"}
+heyt_0009: {decision: keep, frame: app_ui, cat: [lettering_dominant, pure_illustration], typo: [expressive, functional], subj: [fruit, landscape], tech: [scale_contrast, nature_simplification], comp: {layout: negative_space, whitespace: large, density: sparse, alignment: vertical_right_text}, note: "tulou building drawn small top-left, stacked persimmons on stool; vertical handwritten headline right; tiny body text; ~70% paper white"}
+heyt_0010: {decision: keep, frame: app_ui, cat: [lettering_dominant, mixed], typo: [expressive, functional], subj: [fruit], tech: [visual_pun], comp: {layout: subject_center, whitespace: large, density: sparse}, note: "'柿'不简单 handwritten title in quotes; persimmon cut-outs in hexagon grid drawn by line; small handwritten labels"}
+heyt_0011: {decision: keep, frame: app_ui, cat: [pure_illustration, lettering_dominant], typo: [expressive, functional], subj: [drink, everyday_object], tech: [everyday_metaphor], comp: {layout: subject_offset, whitespace: large, density: sparse}, note: "thin pencil line cup sketch, question mark, short handwritten line; extremely sparse"}
+heyt_0012: {decision: keep, frame: app_ui, cat: [lettering_dominant], typo: [expressive, functional], subj: [drink, ingredient], tech: [emotion], comp: {layout: negative_space, whitespace: large, density: sparse}, note: "'琥珀色的，秋高气爽' handwritten top-left, small tea-leaf piles right, '一杯茶？' bottom; text as main visual"}
+heyt_0013: {decision: keep, frame: app_ui, cat: [documentary_photo_text], typo: [functional], subj: [everyday_object], comp: {layout: band, whitespace: large, density: sparse}, note: "black horizontal photo band on beige; tiny vertical '重返牧场'; calm, editorial"}
+heyt_0014: {decision: keep, frame: app_ui, cat: [mixed], typo: [expressive, functional], subj: [person], tech: [collage], comp: {layout: subject_offset, whitespace: medium, density: medium}, note: "torn paper + pencil scribble texture + portrait photo, handwritten signature-like line - documentary collage"}
+heyt_0015: {decision: keep, frame: app_ui, cat: [documentary_photo_text], typo: [expressive, functional], subj: [ingredient], tech: [nature_simplification], comp: {layout: subject_offset, whitespace: large, density: sparse}, note: "single leaf photo right, handwritten red title left"}
+heyt_0016: {decision: keep, frame: app_ui, cat: [documentary_photo_text], typo: [functional], subj: [ingredient], comp: {layout: subject_center, whitespace: medium, density: sparse}, note: "monochrome grey photo of seeds on stems; almost no text"}
+heyt_0017: {decision: reject, reason: "XHS screenshot of printed booklet"}
+heyt_0018: {decision: reject, reason: "XHS screenshot; apple drawings too small"}
+heyt_0019: {decision: reject, reason: "XHS screenshot (persimmon coaster)"}
+heyt_0020: {decision: reject, reason: "XHS screenshot merch flat lay"}
+heyt_0021: {decision: keep, cat: [photo_plus_drawing], typo: [expressive], subj: [packaging], note: "cup sleeve with script 'heytea' and slogan on rim; brand mark - use only as typography study, not as asset"}
+heyt_0022: {decision: keep, cat: [graphic_dominant], typo: [expressive], subj: [everyday_object], tech: [personification], comp: {whitespace: large, density: sparse}, note: "kraft napkins with tiny single doodles + one-line handwritten jokes"}
+heyt_0023: {decision: keep, cat: [graphic_dominant], typo: [functional, expressive], subj: [packaging], note: "sugar/stir packets with numeric code + small doodles"}
+heyt_0024: {decision: reject, reason: "XHS profile page screenshot"}
+heyt_0025: {decision: reject, reason: "long scroll infographic 1048x3348 (aspect 3.19, slipped filter)"}
+heyt_0026: {decision: keep, cat: [pure_illustration], typo: [functional], subj: [character_ip], campaign: chiikawa_collab, comp: {layout: subject_center, whitespace: large}, note: "HEYTEA x Chiikawa banner - licensed IP collab, campaign-specific, not stable language"}
+heyt_0027: {decision: keep, cat: [documentary_photo_text], typo: [functional], subj: [drink], tech: [emotion], comp: {layout: subject_center, whitespace: large, density: sparse}, note: "dark moody photo, glowing cup in frame-in-frame; tiny caption; quiet premium mood (older 'high-end' line)"}
+heyt_0028: {decision: composite, note: "3 product posts strip"}
+heyt_0029: {decision: keep, cat: [photo_plus_drawing, lettering_dominant], typo: [expressive], subj: [drink, ingredient], tech: [action_exaggeration, scale_contrast, personification], comp: {layout: subject_center, whitespace: medium, density: sparse}, note: "'牛肝菌云顶' red wobbly handwritten title top-left; real cup photo; drawn sauce bottle pouring onto drawn mushrooms standing on foam; doodle face on cup; pink soft gradient bg. Key exemplar of photo+drawing interplay"}
+heyt_0030: {decision: composite, cat: [photo_plus_drawing], note: "toast photo + separate line drawing of figure holding bowl; '千日厚... 茶酪' handwritten"}
+heyt_0031: {decision: keep, frame: app_ui, cat: [documentary_photo_text], typo: [functional], subj: [everyday_object, animal], comp: {layout: subject_center, whitespace: large, density: sparse}, note: "glass jar with dark creature inside, white bg - surreal minimal"}
+heyt_0032: {decision: keep, frame: app_ui, cat: [documentary_photo_text], typo: [functional], subj: [landscape, animal], comp: {layout: subject_offset, whitespace: large}, note: "snow mountain + yak photo right, vertical small text left"}
+heyt_0033: {decision: keep, frame: app_ui, cat: [mixed], typo: [functional, expressive], subj: [fruit, animal], comp: {layout: subject_offset, whitespace: large, density: sparse}, note: "grape photo inset upper-right, tiny line animal bottom-left, text blocks scattered; diagonal balance"}
+heyt_0034: {decision: keep, frame: app_ui, cat: [lettering_dominant], typo: [expressive, functional], subj: [person], comp: {layout: text_column, whitespace: large}, note: "handwritten @-mention header, typed paragraph, small photo bottom - diary/notes tone"}
+heyt_0035: {decision: composite, note: "8-post grid screenshot"}
+heyt_0036: {decision: composite, note: "grid of many campaign visuals, blue palette, handwritten '翼！送！' etc"}
+heyt_0037: {decision: keep, cat: [documentary_photo_text], subj: [store], note: "store interior, dark green wall, branch sculpture"}
+heyt_0038: {decision: keep, cat: [documentary_photo_text], subj: [store], note: "store counter"}
+heyt_0039: {decision: keep, cat: [graphic_dominant], subj: [store], note: "stone wall with carved logo - logo, reference only"}
+heyt_0040: {decision: keep, cat: [documentary_photo_text], subj: [store], note: "store facade with HEYTEA 喜茶 signage"}
+heyt_0041: {decision: reject, reason: "text-only social quote screenshot"}
+heyt_0042: {decision: composite, cat: [photo_plus_drawing], note: "2 posts: hand-drawn phone frame around real photo, handwritten quotes - frame-as-drawing device"}
+heyt_0043: {decision: composite, cat: [pure_illustration, lettering_dominant], tech: [personification, action_exaggeration], note: "2 posts: '香芋...看热闹' cup character drawn; '夺冠周吉' trophy-cup people clinking - single black line, yellow accent, huge whitespace. Key exemplar"}
+heyt_0044: {decision: reject, reason: "screenshot of yak photos"}
+heyt_0045: {decision: keep, cat: [lettering_dominant], typo: [expressive], subj: [store], tech: [everyday_metaphor], note: "hoarding wall, big brush-marker handwriting '小憩一下 为呈现更好的喜茶' - store material, lettering exemplar"}
+heyt_0046: {decision: reject, reason: "comment thread screenshot"}
+heyt_0047: {decision: keep, cat: [photo_plus_drawing], typo: [functional, expressive], subj: [packaging], note: "receipt-like labels wrapped on cups, doodles - UGC photo"}
+heyt_0048: {decision: keep, cat: [lettering_dominant], typo: [functional, expressive], subj: [packaging], note: "cup label dense handwritten notes + big number 8373 - UGC photo"}

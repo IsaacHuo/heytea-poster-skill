@@ -1,0 +1,42 @@
+{
+ "passed": true,
+ "hard_failures": [],
+ "warnings": [],
+ "texts": [
+  {
+   "text": "刚摘的葡萄",
+   "role": "expressive",
+   "box": [
+    102,
+    145,
+    750,
+    283
+   ],
+   "ocr": "刚摘的葡萄",
+   "similarity": 1.0,
+   "collision": 0.0,
+   "contrast": 16.01
+  }
+ ],
+ "metrics": {
+  "whitespace": 0.8093,
+  "edge_density": 0.0183,
+  "colorfulness": 20.67,
+  "text_ink_ratio": 0.0133,
+  "subject_ink_ratio": 0.222,
+  "centroid": [
+   0.5642,
+   0.6057
+  ]
+ },
+ "backend": "procedural",
+ "backend_notes": [],
+ "seconds": 2.9,
+ "title_render": {
+  "style": "playful_handwritten",
+  "intensity": 0.62,
+  "attempts": 1,
+  "legibility": 1.0,
+  "warnings": []
+ }
+}

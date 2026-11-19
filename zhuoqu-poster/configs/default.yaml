@@ -1,0 +1,12 @@
+# Central defaults. Environment variables override the image backend (see .env.example).
+poster:
+  ratio: "3:4"            # 3:4 | 9:16 | 1:1 | 16:9 | 4:3
+  seed: 0
+  use_retrieval: true
+  references: 6           # retrieved per request (MMR-diversified)
+image:
+  backend: procedural     # procedural | openai_compatible
+validate:
+  expressive_threshold: 0.6
+  whitespace_min: 0.55     # soft, from measured A-line references
+  edge_max: 0.07
