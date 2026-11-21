@@ -10,3 +10,11 @@ outputs/*
 !outputs/demos/
 # font binaries: fetched by scripts/fetch_fonts.py (OFL texts stay committed)
 assets/fonts/*.ttf
+
+# Preserve ignores for existing local assets and tools
+.pytest_cache/
+data/contact/
+data/source-pages/
+models/
+*.tmp
+dist/
