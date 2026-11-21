@@ -26,6 +26,7 @@ python -m zhuoqu doctor
 python -m zhuoqu poster "为一个校园活动制作轻松、俏皮的宣传图" --title "下课去喝一杯" --info "12月5日 14:00-17:00" --seed 3
 python -m zhuoqu poster "纯文字海报" --title "今天先发会儿呆" --concept lettering_lead --text-style "让这张图更加安静，减少字形夸张"
 python -m zhuoqu poster "把产品照片做成手绘广告" --title "刚摘的葡萄" --photo my_cup.png
+python -m zhuoqu poster "温暖的中秋月亮茶海报" --title "今晚泡月亮" --concept moon_tea --seed 3107
 python -m zhuoqu text "今天喝点好的" --role expressive --style playful_handwritten --intensity 0.55 --seed 42 --format both
 python -m zhuoqu regress            # 回归集：24 组文字 + 10 张海报，与上一次结果对比
 .venv\Scripts\python -m pytest -q

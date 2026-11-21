@@ -62,11 +62,13 @@ def subject_layer(plan: dict, box, size: tuple[int, int], photo: Image.Image | N
                 notes.append(f"remote generation failed ({type(e).__name__}: {e}) -> procedural")
     short = min(W, H)
     d = Drawing(W, H, seed=plan["seed"], pen=max(3.0, 0.0055 * short), ink=plan["palette"]["ink"])
-    ctx = dict(plan["palette"]); ctx["photo"] = photo
+    brief = plan["brief"]
+    ctx = dict(plan["palette"], photo=photo,
+               theme=brief["request"] + " " + (brief.get("title") or ""))
     res = RECIPES[plan["concept"]["concept"]](d, box, ctx) or {}
     layer = Image.new("RGBA", size, (0, 0, 0, 0))
     for ph, (px, py) in res.get("photos", []):
-        layer.paste(ph.convert("RGBA"), (px, py), ph.convert("RGBA"))
+        layer.alpha_composite(ph.convert("RGBA"), (px, py))
     ink = d.render()
     layer = Image.alpha_composite(layer, ink)
     return dict(image=layer, backend="procedural", notes=notes, photos=res.get("photos", []), drawing=d)

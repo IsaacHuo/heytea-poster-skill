@@ -29,6 +29,16 @@ def test_user_title_and_info_kept_verbatim():
     assert p["texts"]["info"][0] == {"text": "¥19 / 杯", "role": "functional"}
 
 
+def test_moon_scene_requires_a_moon_theme_for_auto_selection():
+    options = dict(use_retrieval=False, novelty=False)
+    night = make_plan("画一张茶海报", title="今晚泡月亮", **options)
+    assert night["concept"]["concept"] == "moon_tea"
+    event = make_plan("12月5日校园茶会", **options)
+    assert all(c["concept"] != "moon_tea" for c in event["candidates"])
+    forced = make_plan("画一张茶海报", concept="moon_tea", **options)
+    assert forced["concept"]["concept"] == "moon_tea"
+
+
 def test_validate_catches_collision():
     W, H = 400, 300
     poster = Image.new("RGB", (W, H), "#f3f0e8")

@@ -148,11 +148,12 @@ class Drawing:
         top = base_y - h
         body = [(cx - tw, top), (cx - bw, base_y), (cx + bw, base_y), (cx + tw, top)]
         if fill:
-            lvl = top + h * 0.25
-            k = (lvl - top) / h
-            wl = tw - (tw - bw) * k
-            self.fill([(cx - wl, lvl), (cx - bw, base_y), (cx + bw, base_y), (cx + wl, lvl)], fill,
-                      offset=(h * 0.03, -h * 0.02))
+            lvl = top + h * 0.28
+            wl = tw - (tw - bw) * 0.28 - h * 0.018
+            inner = bw - h * 0.016
+            wave = [(cx+u*wl, lvl+h*v) for u,v in ((-1,0),(-.52,.026),(-.08,.01),(.44,-.024),(1,0))]
+            self.fill([*wave, (cx+inner, base_y-h*.014), (cx-inner, base_y-h*.014)],
+                      fill, amp=h * 0.004)
         self.path(body, **kw)
         if lid:
             self.path([(cx - tw * 1.08, top), (cx + tw * 1.08, top)], **kw)
@@ -276,7 +277,7 @@ class Drawing:
     # ------------------------------------------------ produce
     def fruit(self, cx, cy, r, kind="round", fill=None, **kw):
         """Simplified fruit: only the silhouette needed to recognise it (no face).
-        kinds: round (orange/peach/apple), persimmon, grape, lemon, strawberry, mango, leaf_tea.
+        kinds: round (orange/peach), apple, persimmon, grape, lemon, strawberry, mango.
         Returns bbox."""
         off = (r * 0.12, r * 0.08)
         if kind == "grape":
@@ -290,12 +291,18 @@ class Drawing:
             self.path([(cx, cy - r * 0.85), (cx + r * 0.08, cy - r * 1.2)], **kw)
             self.leaf(cx + r * 0.38, cy - r * 1.05, r * 0.6, -0.4, **kw)
             return (cx - r * 0.8, cy - r * 1.3, cx + r * 0.8, cy + r)
-        if kind == "lemon":
+        if kind == "apple":
+            t = np.linspace(0, 2 * math.pi, 80)
+            u, v = np.sin(t), np.cos(t)
+            notch = .24 * np.exp(-(u/.39)**2) * np.maximum(v, 0)**2
+            pts = np.stack([cx + r*u*(.92+.09*v), cy + r*(-.92*v + notch)], 1)
+        elif kind == "lemon":
             t = np.linspace(0, 2 * math.pi, 64)
             pts = np.stack([cx + r * 1.15 * np.cos(t) * (1 - 0.18 * np.cos(t) ** 8), cy + r * 0.8 * np.sin(t)], 1)
         elif kind == "strawberry":
             t = np.linspace(0, 2 * math.pi, 64)
-            pts = np.stack([cx + r * 0.9 * np.sin(t) * (0.55 + 0.45 * (1 - np.cos(t)) / 2), cy - r * 0.9 * np.cos(t) * 0.95], 1)
+            pts = np.stack([cx + r * 0.98 * np.sin(t) * (0.72 + 0.28 * np.cos(t)),
+                            cy - r * 0.97 * np.cos(t)], 1)
         elif kind == "mango":
             t = np.linspace(0, 2 * math.pi, 64)
             pts = np.stack([cx + r * 0.8 * np.cos(t) + r * 0.18 * np.sin(2 * t), cy + r * 1.05 * np.sin(t)], 1)
@@ -305,7 +312,7 @@ class Drawing:
         else:
             pts = self._ellipse(cx, cy, r, r * 0.95, -math.pi / 2, 1.5 * math.pi)
         if fill:
-            self.fill(pts, fill, offset=off)
+            self.fill(pts, fill, offset=(r*.035, r*.025), amp=r*.015)
         self.path(pts, closed=True, **kw)
         top = float(pts[:, 1].min())
         if kind == "persimmon":
@@ -315,9 +322,12 @@ class Drawing:
         elif kind == "strawberry":
             for u, v in ((-0.3, -0.1), (0.25, -0.2), (0, 0.25), (-0.2, 0.5), (0.3, 0.35), (0.05, -0.45)):
                 self.path([(cx + u * r, cy + v * r), (cx + u * r + 1, cy + v * r + r * 0.07)], **kw)
-            self.path([(cx - r * 0.5, top + r * 0.12), (cx, top - r * 0.1), (cx + r * 0.5, top + r * 0.12)], **kw)
-        elif kind in ("round", "mango", "lemon"):
-            self.path([(cx, top + r * 0.1), (cx + r * 0.08, top - r * 0.25)], **kw)
+            self.path([(cx-r*.51, top+r*.15), (cx-r*.23, top+r*.10), (cx-r*.34, top-r*.12),
+                       (cx, top-r*.01), (cx+r*.24, top-r*.16), (cx+r*.18, top+r*.10),
+                       (cx+r*.47, top+r*.19)], **kw)
+        elif kind in ("round", "mango", "lemon", "apple"):
+            stem = cy-r*.68 if kind == "apple" else top+r*.1
+            self.path([(cx, stem), (cx + r * 0.08, top - r * 0.25)], **kw)
             if kind != "lemon":
                 self.leaf(cx + r * 0.35, top - r * 0.2, r * 0.6, -0.5, **kw)
         x0, y0 = pts.min(0); x1, y1 = pts.max(0)

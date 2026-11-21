@@ -43,6 +43,9 @@ CONCEPTS = {
     "drip_into_cup": dict(technique="action_exaggeration", moods={"natural", "quiet"}, layout="subject_center",
                           story="{s}悬在杯子上方，汁水一滴一滴落进去", palette="two_tone",
                           metaphor="原料直接变成这杯饮品"),
+    "moon_tea": dict(technique="visual_pun", moods={"warm", "quiet"}, layout="subject_center",
+                     story="弯月滴进一只有把手的茶杯，星点沿着月亮聚拢，杯底留下一圈浅浅的投影",
+                     palette="single_accent", metaphor="把今晚的月亮泡进一杯茶里"),
     "leap_on_cup": dict(technique="humorous_contrast", moods={"playful", "energetic"}, layout="subject_offset",
                         story="小人兴奋地跳上杯盖，身后炸开一团颜色", palette="single_accent",
                         metaphor="高兴到坐不住"),
@@ -118,7 +121,8 @@ def _history(n: int = 12) -> list[dict]:
     return [json.loads(l) for l in f.read_text(encoding="utf-8").splitlines()[-n:] if l.strip()]
 
 
-def diverge(brief: dict, refs: list[dict], backend_available: bool, novelty: bool = True) -> list[dict]:
+def diverge(brief: dict, refs: list[dict], backend_available: bool, novelty: bool = True,
+            requested_concept: str | None = None) -> list[dict]:
     hist = _history() if novelty else []
     recent = [h.get("concept") for h in hist]
     ref_tech = {}
@@ -127,13 +131,18 @@ def diverge(brief: dict, refs: list[dict], backend_available: bool, novelty: boo
             ref_tech[t] = ref_tech.get(t, 0) + 1
     s = brief["subject_keyword"] or "一颗果子"
     p = (brief["product"] or ((brief["subject_keyword"] or "") + "茶")) if brief["subject_keyword"] else "茶"
+    moon_theme = re.search(r"中秋|月亮|月光|月色|[弯新满圆]月", brief["request"] + " " + (brief.get("title") or ""))
     out = []
     for name, c in CONCEPTS.items():
         if c.get("needs_photo") and not brief["photo"]:
             continue
+        if name == "moon_tea" and requested_concept != name and (not moon_theme or brief["photo"]):
+            continue
         score, why = 0.0, []
         fit = set(brief["moods"]) & c["moods"]
         score += 2.0 * len(fit); why.append(f"mood fit {sorted(fit) or '-'}")
+        if name == "moon_tea" and moon_theme:
+            score += 4.0; why.append("the brief calls for a moon")
         if c.get("needs_photo"):
             score += 2.5; why.append("uses the supplied product photo")
         if name in ("cup_lifts_fruit", "drip_into_cup", "color_field") and not brief["subject_keyword"]:
@@ -177,7 +186,7 @@ def make_plan(request: str, title: Optional[str] = None, info: Optional[list[str
                 r["techniques"] = list(pool[r["id"]].creative_techniques) if r["id"] in pool else []
         except Exception as e:   # retrieval is advisory; never block generation
             refs = [dict(error=f"retrieval unavailable: {type(e).__name__}: {e}")]
-    cands = diverge(brief, [r for r in refs if "id" in r], backend_available, novelty)
+    cands = diverge(brief, [r for r in refs if "id" in r], backend_available, novelty, requested_concept=concept)
     if concept:
         pick = next((c for c in cands if c["concept"] == concept), None)
         if pick is None:
@@ -202,13 +211,20 @@ def make_plan(request: str, title: Optional[str] = None, info: Optional[list[str
         from .typography import interpret_instruction
         t = interpret_instruction(text_instruction, style=style, intensity=intensity, layout=tlayout)
         text.update(style=t["style"], intensity=t["intensity"], layout=t["layout"], overrides=t["overrides"], notes=t["notes"])
-    pal = palette.choose(request + " " + (brief["title"] or ""), pick["palette_mode"], brief["season"])
+    is_moon_tea = pick["concept"] == "moon_tea"
+    palette_query = "月亮" if is_moon_tea else request + " " + (brief["title"] or "")
+    pal = palette.choose(palette_query, pick["palette_mode"], brief["season"])
     ttl = brief["title"] or _draft_title(brief, seed)
     s = brief["subject_keyword"] or "tea"
+    if is_moon_tea:
+        scene = ("a crescent moon dripping into a recognizable handled teacup and saucer, "
+                 "sparse stars grouped beside the moon, subtle ripples on the tea")
+    else:
+        scene = f"{pick['concept'].replace('_', ' ')} ({s})"
     prompt = (f"minimal hand-drawn doodle illustration, single black felt-pen line of constant width, "
               f"slightly wobbly, flat color fill slightly off the line, warm off-white paper background {pal['paper']}, "
-              f"large empty space, one accent color {', '.join(pal['accents']) or 'none'}, scene: {pick['concept'].replace('_', ' ')} "
-              f"({s}), no text, no logo, no faces on fruit, not cute cartoon")
+              f"large empty space, one accent color {', '.join(pal['accents']) or 'none'}, "
+              f"scene: {scene}, no text, no logo, no faces on fruit, not cute cartoon")
     return dict(brief=brief, candidates=cands, concept=pick, palette=pal,
                 texts=dict(title=dict(text=ttl, role="hybrid" if brief["product"] and brief["product"] in ttl else "expressive",
                                       protect=[brief["product"]] if brief["product"] and brief["product"] in ttl else [],
